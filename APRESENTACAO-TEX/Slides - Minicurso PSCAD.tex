@@ -1,0 +1,99 @@
+\documentclass[12pt,aspectratio=169]{beamer}
+
+\usepackage{cmfslidespkg}
+\usepackage{CMFconfigSlides}
+
+\beamertemplatenavigationsymbolsempty
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% Contatos para colocar no último slide %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\cmfnetwork}{
+\href{https://orcid.org/0000-0002-6300-0521}
+{
+\includegraphics[width=0.035\linewidth]{./symbols/orcid}
+}\href{https://www.researchgate.net/profile/Cleiton_Freitas}
+{
+\includegraphics[width=0.035\linewidth]{./symbols/researchgate}
+}\href{http://lattes.cnpq.br/8580465355265899}
+{
+\includegraphics[width=0.05\linewidth]{./symbols/lattes}
+}\href{https://scholar.google.com/citations?user=Nq_YDvIAAAAJ&hl=pt-BR}
+{
+\includegraphics[width=0.035\linewidth]{./symbols/GoogleScholar25x25}
+}\href{https://www.mendeley.com/profiles/cleiton-freitas3/}
+{
+\includegraphics[width=0.035\linewidth]{./symbols/github}
+}\href{http://www.eng.uerj.br/prof/cleitoncmf}
+{
+\includegraphics[width=0.035\linewidth]{./symbols/site2}
+}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% Dados Gerais %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\institute[COPPE/UFRJ]
+%{Programa de Engenharia Elétrica}
+
+\author[Cleiton Magalhães Freitas]{Cleiton Magalhães Freitas}
+
+\title[Minicurso: PSCAD]
+{Minicurso: PSCAD}
+
+\date{}
+
+\acadclass{conversão eletromecânica de energia}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\renewcommand{\inserttotalframenumber}{\pageref{lastframe}} % para contar o último slide
+
+\cmfslidetitulofig{./logos/fundo_tese}{0.15}
+					{./logos/logomarca-uerj}				                    {0.15\linewidth}{-2.2cm}
+					
+\cmfendpageII{./logos/fundo_tese}{0.15}{./logos/logomarca-uerj}				                    {0.15\linewidth}{cleiton.freitas@uerj.br}{\\[5pt] \cmfnetwork}
+
+\cmftableofcontents
+
+%\include{sec_introducao}
+\include{Minicurso-Visao-Geral}
+\include{Minicurso-Primeiros-Passos}
+\include{Minicurso-Exportando-Dados}
+\include{Minicurso-Criacao-Componentes}
+\include{Minicurso-Criacao-Componentes-Scripts}
+\include{Minicurso-Automacao-Simulacao}
+\include{Minicurso-Aplicacao-Retificadores}
+\include{Minicurso-Aplicacao-Inversores}
+\include{Minicurso-Aplicacao-Sistemas-Controle}
+\include{Minicurso-Aplicacao-Maquinas}
+\include{Minicurso-Aplicacao-Faltas}
+\include{Minicurso-Conclusoes}
+%\include{sec_MMC}
+%\include{sec_NRF}
+%\include{sec_SRF}
+%\include{sec_outras}
+%\include{sec_aplicacao}
+%\include{sec_conclusoes}
+
+
+%
+%\begin{frame}{teste 2}
+%teste
+%\end{frame}
+%
+%\include{./Partes/Introducao/Introducao}
+%\include{./Partes/Geracao_Solar/Geracao_Solar}
+
+
+
+
+
+\end{document}

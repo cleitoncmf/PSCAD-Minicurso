@@ -1,0 +1,337 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{cmfslidespkg}[2020/06/03 Pacote para facilitar a criação de slides]
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% Estilo dos slides %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usetheme{CambridgeUS}
+\setbeamercolor{palette tertiary}{fg=black, bg=gray}
+\setbeamercolor{palette secondary}{fg=black, bg=gray!20!white}
+\setbeamercolor{palette primary}{fg=black, bg=gray!30!white}
+\setbeamercolor{frametitle}{fg=gray!10!black}
+\setbeamercolor{title}{fg=gray!10!black}
+\setbeamertemplate{headline}{}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% Pacotes Utilizados %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[portuguese]{babel}
+%\RequirePackage[T1]{fontenc}
+\RequirePackage{amsmath}
+\RequirePackage{amsfonts}
+\RequirePackage{amssymb}
+\RequirePackage{graphicx} 
+\RequirePackage{epstopdf}
+\RequirePackage{multicol}
+\RequirePackage{multirow}
+\RequirePackage{xcolor}
+\RequirePackage{dsfont} % para letras com duas barras
+%\RequirePackage{subfigure} 
+\usepackage{subfig}
+\RequirePackage{etoolbox}% http://ctan.org/pkg/etoolbox
+\RequirePackage{ragged2e} % alinhamento
+\RequirePackage{mathtools}
+\RequirePackage{tabu} % pespessuras ajustáveis dentro de tablela
+\RequirePackage{boldline} % cria linhas mais espessas
+\RequirePackage{textpos} % para textblock
+\RequirePackage{setspace} % espacamento entre linhas
+\RequirePackage{tikz}
+\usetikzlibrary{arrows,shapes}
+\RequirePackage[american]{circuitikz} % para desenhar circuitos elétricos
+\RequirePackage{tikz}
+\RequirePackage{arydshln} % linhas tracejadas dentro de matrizes
+\RequirePackage{mathdots}
+\usepackage{textpos}
+\usepackage{marvosym} % Para o símbolo de carta
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% Definições de Estilo %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\tikzstyle{every picture}+=[remember picture]
+
+\AtBeginEnvironment{figure}{\setcounter{subfigure}{0}}% Resets subfigure counter at start of figure environment
+
+
+
+\setbeamercolor{block title}{fg=darkred,bg=structure.fg!20!bg!50!bg}
+
+
+\usefonttheme[onlymath]{serif}
+
+\RequirePackage{eso-pic} % para colocar o logo no topo (não funcionou como  pensava)
+
+\setbeamercolor*{item}{fg=black}
+
+
+% Define como as seções serão separadas
+\AtBeginSection[]{
+{
+\setbeamertemplate{logo}{}
+  \begin{frame}
+  \vfill
+  \centering
+  \pgfsetfillopacity{0.9}
+  \begin{beamercolorbox}[sep=1pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+  }
+}
+
+
+
+
+% Redefinição da página de título
+\makeatletter
+\setbeamertemplate{title page}{
+	\vbox{}
+  	\vfill
+  	\begingroup
+    	\centering
+    	\begin{beamercolorbox}
+    		[sep=8pt,center,shadow=true,rounded=true]{title}
+      		{\usebeamerfont{title}\textbf{\MakeUppercase\inserttitle}\par}
+      		\ifx\insertsubtitle\@empty%
+      		\else%
+      			\vskip0.25em%
+        		{\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}						\insertsubtitle\par}%
+      		\fi%    
+    		%---------------------
+    		\ifx\insertauthor\@empty%
+    		\else%
+    			\vskip0.25em\par
+    			\usebeamerfont{author}\insertauthor\\
+    		\fi
+    		%---------------------
+    		\ifx\insertinstitute\@empty%
+    		\else%
+    			\vskip0.25em\par
+    			\usebeamerfont{institute}\insertinstitute
+    		\fi
+    	\end{beamercolorbox}
+    % ------------------------
+    {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+	\endgroup
+  	\vfill
+}
+\makeatother
+
+
+
+
+% tested
+\makeatletter
+\newcommand\acadclass[1]{\def\@acadclass{#1}}
+\makeatother
+
+\newcommand{\insertacadclass}{\@acadclass}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% Comandos %%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Criação de página de título com figura no plano de fundo
+% #1 - Figura do plano de fundo
+% #2 - Opacidade da figura (0 - 1)
+% #3 - Símbolo da instituição
+% #4 - Tamanho da símbolo 
+% #5 - Posição da figura
+\newcommand{\cmfslidetitulofig}[5]
+{
+	{
+	\titlegraphic{\centering\leavevmode\smash{
+		\raisebox{#5}{
+			\includegraphics[width=#4]{#3}
+		}
+		}
+		}
+	\usebackgroundtemplate{
+		\tikz[overlay,remember picture]
+		\node[opacity=#2, at=(current page.center)] {
+		\includegraphics[height=\paperheight,width=\paperwidth]{#1}};
+		}
+	\begin{frame}
+		\pgfsetfillopacity{0.9}
+		\titlepage
+	\end{frame}
+	}
+
+
+} 
+
+
+
+% Criação de table of contents
+\newcommand{\cmftableofcontents}
+{
+	{
+		\setbeamertemplate{logo}{}
+		\begin{frame}
+			\tableofcontents
+		\end{frame}
+	}
+}
+
+
+
+% para contar o último slide
+\renewcommand{\inserttotalframenumber}
+	{
+	\pageref{lastframe}
+	} 
+
+
+% Diferentes tamanhos de sinais de positivo e negativo
+\newcommand{\minus}
+	{
+	\raisebox{0.2ex}{\scalebox{0.5}[0.5]{$-$}}
+	}
+\newcommand{\plus}
+	{
+	\raisebox{0.2ex}{\scalebox{0.5}[0.5]{$+$}}
+	}  
+\newcommand{\minusi}
+	{
+	\raisebox{0.2ex}{\scalebox{0.7}[0.7]{$-$}}{\scalebox{0.5}[1]{$-$}}
+	} 
+\newcommand{\plusi}
+	{
+	\raisebox{0.1ex}{\scalebox{0.7}[0.7]{$+$}}
+	} 
+\newcommand{\plusexp}
+	{
+	\scalebox{0.5}[0.5]{$+$}
+	} 
+\newcommand{\minusexp}
+	{
+	\scalebox{0.5}[0.5]{$-$}
+	} 
+	
+
+% Comando para criação de seções
+\newcommand{\cmfsection}[4]{
+\section{#1}
+  \begin{frame}
+  \
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamvfillercolorbox}
+  {\vspace{6pt}  Autores: #2\\ \vspace{6pt} Meio: #3\\ \vspace{6pt} Ano: #4}
+  \vfill
+  \end{frame}
+}
+
+
+% Comando para criação de seções
+% #1 - Nome da seção
+% #2 - Imagem de background
+% #3 - Opacidade da figura de background
+\newcommand{\cmfnewsection}[3]
+{
+	\usebackgroundtemplate{
+		\tikz[overlay,remember picture] 
+		\node[opacity=#3, at=(current page.center)] {
+			\includegraphics[height=\paperheight,width=\paperwidth]{#2}
+			};
+	}
+	\section{#1}	
+	\usebackgroundtemplate{ }  
+}
+
+
+% Comando para definir último slide
+% #1 - Imagem de background
+% #2 - Opacidade da imagem de background
+\newcommand{\cmfendpage}[2]
+{
+\AtEndDocument{
+%\addtocounter{framenumber}{1}
+\part{}
+{
+	\usebackgroundtemplate{
+		\tikz[overlay,remember picture] 
+		\node[opacity=#2, at=(current page.center)] {
+			\includegraphics[height=\paperheight,width=\paperwidth]{#1}
+			};
+	}
+\setbeamertemplate{logo}{}
+	\begin{frame}\label{lastframe}
+	\centering
+				\vfill	
+	\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    {\Huge Obrigado pela atenção!}
+    \end{beamercolorbox}
+				\vfill
+				{\usebeamerfont{author}\insertauthor \\}
+				\vfill	
+                \begin{figure}
+                \includegraphics[width=0.2\linewidth]{./logos/COPPE_horiz_completa_cor_sem_bg}
+                \end{figure}
+                
+      \end{frame}
+    }
+    \usebackgroundtemplate{ } 
+}
+}
+
+% Comando para definir último slide: 2
+% #1 - Imagem de background
+% #2 - Opacidade da imagem de background
+% #3 - Símbolo da instituição
+% #4 - Tamanho do Símbolo
+% #5 - Email de contato
+% #6 - Serve para passar qualquer coisa extra (fica em branco se não tiver não para passar)
+\newcommand{\cmfendpageII}[6]
+{
+\AtEndDocument{
+%\addtocounter{framenumber}{1}
+\part{}
+{
+	\usebackgroundtemplate{
+		\tikz[overlay,remember picture] 
+		\node[opacity=#2, at=(current page.center)] {
+			\includegraphics[height=\paperheight,width=\paperwidth]{#1}
+			};
+	}
+\setbeamertemplate{logo}{}
+	\begin{frame}
+		\label{lastframe}
+		\centering
+		\vfill	
+		\begin{beamercolorbox}
+			[sep=8pt,center,shadow=true,rounded=true]{title}
+			{\usebeamerfont{title}\textbf{Obrigado pela Atenção!}\par}
+    		\vskip0.8em%
+    		\vfill
+			{\usebeamerfont{author}\insertauthor \\}
+			{\Letter~{\color{blue}\href{mailto:#5}{#5}} }
+			#6
+		\end{beamercolorbox} 
+		\vfill	
+        \begin{figure}
+        	\includegraphics[width=#4]{#3}
+        \end{figure}
+    \end{frame}
+}
+    \usebackgroundtemplate{ } 
+}
+}
+
+

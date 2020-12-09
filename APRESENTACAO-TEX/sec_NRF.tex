@@ -1,0 +1,233 @@
+\cmfnewsection{Modelo em Referencial Natural ($a$, $b$, $c$)}{./logos/fundo_tese}{0.15}
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Sistema de Controle em Referencial Natural ($a$, $b$, $c$)}
+
+\begin{columns}
+\column{0.7\textwidth}
+\centering
+
+\includegraphics[width=0.9\linewidth]{./figuras/figuras_nrf/controle_VI_NRF2}
+
+\column{0.3\textwidth}
+\centering
+
+Controladores
+
+\begin{equation*}
+G_{cir}(s) = - \frac{k_r^{cir} s}{s^2 + 4\omega_0^2}
+\end{equation*}
+
+\begin{equation*}
+G_i(s) = k_p^{i} + \frac{k_r^{i} s}{s^2 + \omega_0^2}
+\end{equation*} 
+
+
+\begin{equation*}
+G_v^{dl}(s) = k_p^{v,dl} + \frac{k_r^{v,dl} s}{s^2 + \omega_0^2}
+\end{equation*} 
+\vfill
+
+\end{columns}
+
+
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Modelo da Malha de Corrente}
+
+
+
+\centering
+\includegraphics[width=0.65\linewidth]{./figuras/figuras_nrf/CTRL_I}
+
+\vspace*{1.0cm}
+
+\begin{columns}
+
+\column{0.4\textwidth}
+\centering
+
+\includegraphics[width=0.9\linewidth]{./figuras/figuras_nrf/Northon_NRF_I}
+
+
+\column{0.6\textwidth}
+\centering
+%
+\begin{equation*}
+\resizebox{0.9\textwidth}{!} 
+{$
+G_i^{cl}(s) = 
+\frac{\left(
+ 4 s C_{eq} V_{dc0} 
+ + \frac{2S_0}{3 V_{dc0}} \right) 
+ G_i(s)}{4 s C_{eq} \left( Z + 2Z_f \right) + \left(
+ 4 s C_{eq} V_{dc0} 
+ + \frac{2S_0}{3 V_{dc0}} \right) 
+ G_i(s)+ 1} 
+$} 
+\end{equation*}
+%
+\begin{equation*}
+\resizebox{0.9\textwidth}{!} 
+{$
+Y_{ac}(s) = 
+\frac{8 s C_{eq}}{4 s C_{eq} \left( Z + 2Z_f \right) + \left(
+ 4 s C_{eq} V_{dc0} 
+ + \frac{2S_0}{3 V_{dc0}} \right) 
+ G_i(s)+ 1}
+ $} 
+\end{equation*}
+
+
+\end{columns}
+
+\vspace*{1cm}
+\begin{itemize}
+	\item A admitância é influenciada pelos parâmetros de controle
+\end{itemize}
+
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Modelo da Malha de Tensão}
+
+
+
+\centering
+\includegraphics[width=0.65\linewidth]{./figuras/figuras_nrf/CTRL_V}
+
+
+\begin{columns}
+
+\column{0.4\textwidth}
+\centering
+
+\vspace*{0.5cm}
+
+\includegraphics[width=0.9\linewidth]{./figuras/figuras_nrf/Thevenin_NRF_VI}
+
+
+\column{0.35\textwidth}
+\centering
+
+
+
+\begin{equation*}
+\resizebox{0.95\textwidth}{!} 
+{$
+G_{v,cl}^{dl}(s) = 
+\frac{G_i^{cl}(s) G_v^{dl}(s)}{Y_{ac}(s) + G_i^{cl}(s) G_v^{dl}(s)}
+$}
+\end{equation*}
+
+\begin{equation*}
+\resizebox{0.95\textwidth}{!} 
+{$
+Z_{ac}^{dl}(s) =
+\frac{1}{Y_{ac}(s) + G_i^{cl}(s) G_v^{dl}(s)}
+$}
+\end{equation*}
+
+
+\column{0.25\textwidth}
+\centering
+
+%
+\begin{equation*}
+\resizebox{0.95\textwidth}{!} 
+{$
+G_{th}^{dl}(s) =  \frac{ G_{v,dl}^{dl}(s)}{s C_f Z_{ac}^{dl}(s) + 1} 
+$}
+\end{equation*}
+
+\begin{equation*}
+\resizebox{0.95\textwidth}{!} 
+{$
+Z_{th}^v = \frac{ Z_{ac}^{dl}(s) }{s C_f Z_{ac}^{dl}(s) + 1}
+$}
+\end{equation*}
+
+\end{columns}
+
+
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Resposta em Frequência: $G_{th}^{dl}(s)$ e $Z_{th}^{dl}(s)$}
+
+\begin{columns}
+
+\column{0.5\textwidth}
+\centering
+$G_{th}^{dl}(s)$\\[5pt]
+\includegraphics[width=0.95\linewidth]{./figuras/figuras_nrf/bode_Gth}
+
+
+\column{0.5\textwidth}
+\centering
+$Z_{th}^{dl}(s)$\\[5pt]
+\includegraphics[width=0.95\linewidth]{./figuras/figuras_nrf/bode_Zth}
+
+\includegraphics[width=0.95\linewidth]{./figuras/figuras_var_gain/bode_Zth_vdl_nrf_var_kpv}
+
+\end{columns}
+
+
+
+\end{frame}
+
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{Resposta em Frequência: $G_{th}^{dl}(s)$}
+%
+%
+%\includegraphics[width=0.5\linewidth]{./figuras/figuras_nrf/bode_Gth}
+%
+%
+%\end{frame}
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{Resposta em Frequência: $Z_{th}^{dl}(s)$}
+%
+%\includegraphics[width=0.5\linewidth]{./figuras/figuras_nrf/bode_Zth}
+%
+%\includegraphics[width=0.5\linewidth]{./figuras/figuras_var_gain/bode_Zth_vdl_nrf_var_kpv}
+%
+%
+%\end{frame}
+
