@@ -2,13 +2,13 @@
 \select@language {portuguese}
 \beamer@sectionintoc {1}{Vis\IeC {\~a}o Geral do PSCAD}{3}{0}{1}
 \beamer@sectionintoc {2}{Primeiros Passos no PSCAD}{4}{0}{2}
-\beamer@sectionintoc {3}{Exportando Dados}{13}{0}{3}
-\beamer@sectionintoc {4}{Cria\IeC {\c c}\IeC {\~a}o de Componentes e Bibliotecas}{14}{0}{4}
-\beamer@sectionintoc {5}{Cria\IeC {\c c}\IeC {\~a}o de Componentes: Usando Scripts}{15}{0}{5}
-\beamer@sectionintoc {6}{Automa\IeC {\c c}\IeC {\~a}o de Simula\IeC {\c c}\IeC {\~o}es}{16}{0}{6}
-\beamer@sectionintoc {7}{Aplica\IeC {\c c}\IeC {\~a}o - Retificadores}{17}{0}{7}
-\beamer@sectionintoc {8}{Aplica\IeC {\c c}\IeC {\~a}o: Inversores}{18}{0}{8}
-\beamer@sectionintoc {9}{Aplica\IeC {\c c}\IeC {\~a}o: Sistemas de Controle}{19}{0}{9}
-\beamer@sectionintoc {10}{Aplica\IeC {\c c}\IeC {\~a}o - M\IeC {\'a}quinas El\IeC {\'e}tricas}{20}{0}{10}
-\beamer@sectionintoc {11}{Aplica\IeC {\c c}\IeC {\~a}o - Faltas}{21}{0}{11}
-\beamer@sectionintoc {12}{Conclus\IeC {\~o}es}{22}{0}{12}
+\beamer@sectionintoc {3}{Exportando Dados}{18}{0}{3}
+\beamer@sectionintoc {4}{Cria\IeC {\c c}\IeC {\~a}o de Componentes e Bibliotecas}{19}{0}{4}
+\beamer@sectionintoc {5}{Cria\IeC {\c c}\IeC {\~a}o de Componentes: Usando Scripts}{20}{0}{5}
+\beamer@sectionintoc {6}{Automa\IeC {\c c}\IeC {\~a}o de Simula\IeC {\c c}\IeC {\~o}es}{21}{0}{6}
+\beamer@sectionintoc {7}{Aplica\IeC {\c c}\IeC {\~a}o - Retificadores}{22}{0}{7}
+\beamer@sectionintoc {8}{Aplica\IeC {\c c}\IeC {\~a}o: Inversores}{23}{0}{8}
+\beamer@sectionintoc {9}{Aplica\IeC {\c c}\IeC {\~a}o: Sistemas de Controle}{24}{0}{9}
+\beamer@sectionintoc {10}{Aplica\IeC {\c c}\IeC {\~a}o - M\IeC {\'a}quinas El\IeC {\'e}tricas}{25}{0}{10}
+\beamer@sectionintoc {11}{Aplica\IeC {\c c}\IeC {\~a}o - Faltas}{26}{0}{11}
+\beamer@sectionintoc {12}{Conclus\IeC {\~o}es}{27}{0}{12}

@@ -1,0 +1,10 @@
+<Meta name="SIM1">
+  <messagelist />
+  <List classid="Settings" />
+  <ViewContext>
+    <Window defn="SIM1:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomlevel="6" scrollx="119" scrolly="180" />
+  </List>
+</Meta>
