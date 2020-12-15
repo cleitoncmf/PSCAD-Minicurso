@@ -1,10 +1,35 @@
 <Meta name="SIM1">
-  <messagelist />
+  <messagelist>
+    <message status="normal" label="build" groupid="100006">
+      <User scope="SIM1" name="Main" status="normal" link="1249878317" /><![CDATA[Generating network and source code 'C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM1\SIM1.gf46\Main.f'.]]></message>
+    <message status="normal" label="build" scope="SIM1" groupid="100006"><![CDATA[Generating 'C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM1\SIM1.gf46\SIM1.map'.]]></message>
+    <message status="normal" label="build" scope="SIM1" groupid="100014"><![CDATA[The total number of live nodes: 6]]></message>
+    <message status="normal" label="build" scope="SIM1" groupid="100001"><![CDATA[Non-professional licenses are limited to a single, electrical subsystem. Subsystem splitting has been internally disabled for this simulation.]]></message>
+    <message status="normal" label="build" scope="SIM1" groupid="400000"><![CDATA[Time for Compile: 31ms  Make: 0ms]]></message>
+    <message status="normal" label="build" scope="SIM1" groupid="100015"><![CDATA[Will execute (1): call C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat]]></message>
+    <message status="normal" label="build" scope="SIM1" groupid="100015"><![CDATA[Will execute (1): call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat"]]></message>
+    <message status="normal" label="build" scope="SIM1" groupid="100015"><![CDATA[Will execute (2): make -f SIM1.mak]]></message>
+    <message status="normal" label="build" scope="SIM1" groupid="100015"><![CDATA[Will execute (2): "C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM1\SIM1.gf46\SIM1.mak.bat"]]></message>
+    <message status="normal" label="build" scope="SIM1" groupid="100005"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" scope="SIM1" groupid="0"><![CDATA[C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM1\SIM1.gf46>call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat" ]]></message>
+    <message status="normal" label="build" scope="SIM1" groupid="100012"><![CDATA[Linking objects and libraries into binary 'SIM1.exe']]></message>
+    <message status="normal" label="build" scope="SIM1" groupid="400000"><![CDATA[Solve Time = 31ms]]></message>
+  </messagelist>
   <List classid="Settings" />
   <ViewContext>
     <Window defn="SIM1:Main" call="0" />
   </ViewContext>
   <List classid="View">
-    <View name="Main" zoomlevel="6" scrollx="119" scrolly="180" />
+    <View name="Main" zoomlevel="7" scrollx="0" scrolly="797" />
   </List>
+  <Output device="EMTDC" version="2010" date="2020/12/15" time="00:39:05.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="20000.0" end="4000" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):Ia" index="0" id="44310447:0" label="" dim="3" unit="" min="-1" max="1" />
+      <Analog name="Main(0):Ea" index="3" id="1174939405:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
 </Meta>

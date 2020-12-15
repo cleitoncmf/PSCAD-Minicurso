@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2019.3.24)  14 DEC 2020 23:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2019.3.24)  15 DEC 2020 00:38
 entering extended mode
 **Slides*-*Minicurso*PSCAD.tex
 
@@ -1435,7 +1435,34 @@ Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 es.sty
 Package: CMFconfigSlides 
 )
-No file Slides*-*Minicurso*PSCAD.aux.
+("C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Slides
+ - Minicurso PSCAD.aux"
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
+so-Visao-Geral.aux)
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
+so-Primeiros-Passos.aux)
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
+so-Visualizacao-resultados.aux)
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
+so-Exportando-Dados.aux)
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
+so-Criacao-Componentes.aux)
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
+so-Criacao-Componentes-Scripts.aux)
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
+so-Automacao-Simulacao.aux)
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
+so-Aplicacao-Retificadores.aux)
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
+so-Aplicacao-Inversores.aux)
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
+so-Aplicacao-Sistemas-Controle.aux)
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
+so-Aplicacao-Maquinas.aux)
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
+so-Aplicacao-Faltas.aux)
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
+so-Conclusoes.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
@@ -1450,6 +1477,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1512,6 +1540,11 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 55.
 LaTeX Info: Redefining \pageref on input line 55.
 LaTeX Info: Redefining \nameref on input line 55.
+
+("C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Slides
+ - Minicurso PSCAD.out")
+("C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Slides
+ - Minicurso PSCAD.out")
 \@outlinefile=\write5
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\translator\dicts\translator
@@ -1557,18 +1590,16 @@ Package caption Info: End \AtBeginDocument code.
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 55.
 
-No file Slides*-*Minicurso*PSCAD.nav.
-
-LaTeX Warning: Reference `lastframe' on page 1 undefined on input line 55.
-
-<./logos/logomarca-uerj.png, id=19, 429.605pt x 429.605pt>
+("C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Slides
+ - Minicurso PSCAD.nav")
+<./logos/logomarca-uerj.png, id=75, 429.605pt x 429.605pt>
 File: ./logos/logomarca-uerj.png Graphic file (type png)
 
 <use ./logos/logomarca-uerj.png>
 Package pdftex.def Info: ./logos/logomarca-uerj.png used on input line 60.
 (pdftex.def)             Requested size: 64.759pt x 64.75917pt.
 
-<./logos/fundo_tese.png, id=21, 1204.5pt x 677.53125pt>
+<./logos/fundo_tese.png, id=77, 1204.5pt x 677.53125pt>
 File: ./logos/fundo_tese.png Graphic file (type png)
 
 <use ./logos/fundo_tese.png>
@@ -1579,19 +1610,13 @@ Package pdftex.def Info: ./logos/fundo_tese.png used on input line 60.
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 60.
 
-
-LaTeX Warning: Reference `lastframe' on page 1 undefined on input line 60.
-
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/cleit/Documents/
 GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/logos/fundo_tese.png> <C:/Users/cleit/D
 ocuments/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/logos/logomarca-uerj.png>]
-No file Slides*-*Minicurso*PSCAD.toc.
-
-LaTeX Warning: Reference `lastframe' on page 2 undefined on input line 64.
-
-[2
+("C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Slides
+ - Minicurso PSCAD.toc") [2
 
 ]
 (C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\Minicurso-Vis
@@ -1600,11 +1625,7 @@ File: ./logos/fundo_tese.png Graphic file (type png)
  <use ./logos/fundo_tese.png>
 Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
 (pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 3 undefined on input line 1.
-
-[3
+ [3
 
 
 ])
@@ -1614,17 +1635,14 @@ File: ./logos/fundo_tese.png Graphic file (type png)
  <use ./logos/fundo_tese.png>
 Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
 (pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 4 undefined on input line 1.
-
-[4
+ [4
 
 
 
 ]
 LaTeX Font Info:    Try loading font information for U+msa on input line 24.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 24.
@@ -1632,38 +1650,30 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 24.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<./figuras/Primeiros-Passos/login.pdf, id=57, 1058.44249pt x 748.30751pt>
+<./figuras/Primeiros-Passos/login.pdf, id=137, 1058.44249pt x 748.30751pt>
 File: ./figuras/Primeiros-Passos/login.pdf Graphic file (type pdf)
 
 <use ./figuras/Primeiros-Passos/login.pdf>
 Package pdftex.def Info: ./figuras/Primeiros-Passos/login.pdf used on input lin
 e 24.
 (pdftex.def)             Requested size: 241.77667pt x 170.93103pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 5 undefined on input line 24.
-
-[5
+ [5
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/login.pdf>]
-<./figuras/Primeiros-Passos/tela_inicial.pdf, id=70, 1451.09058pt x 779.60553pt
->
+<./figuras/Primeiros-Passos/tela_inicial.pdf, id=150, 1451.09058pt x 779.60553p
+t>
 File: ./figuras/Primeiros-Passos/tela_inicial.pdf Graphic file (type pdf)
  <use ./figuras/Primeiros-Passos/tela_inicial.pdf>
 Package pdftex.def Info: ./figuras/Primeiros-Passos/tela_inicial.pdf used on in
 put line 38.
 (pdftex.def)             Requested size: 366.9853pt x 197.1611pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 6 undefined on input line 38.
-
-[6
+ [6
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/tela_inicial.pdf>]
-<./figuras/Primeiros-Passos/biblioteca_master.pdf, id=81, 1126.7291pt x 648.722
-81pt>
+<./figuras/Primeiros-Passos/biblioteca_master.pdf, id=161, 1126.7291pt x 648.72
+281pt>
 File: ./figuras/Primeiros-Passos/biblioteca_master.pdf Graphic file (type pdf)
  <use ./figuras/Primeiros-Passos/biblioteca_master.pdf>
 Package pdftex.def Info: ./figuras/Primeiros-Passos/biblioteca_master.pdf used 
@@ -1673,15 +1683,12 @@ on input line 55.
 Overfull \vbox (2.61115pt too high) detected at line 55
  []
 
-
-LaTeX Warning: Reference `lastframe' on page 7 undefined on input line 55.
-
 [7
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/biblioteca_master.pdf>]
-<./figuras/Primeiros-Passos/biblioteca_parte.pdf, id=93, 1126.7291pt x 648.7228
-1pt>
+<./figuras/Primeiros-Passos/biblioteca_parte.pdf, id=173, 1126.7291pt x 648.722
+81pt>
 File: ./figuras/Primeiros-Passos/biblioteca_parte.pdf Graphic file (type pdf)
  <use ./figuras/Primeiros-Passos/biblioteca_parte.pdf>
 Package pdftex.def Info: ./figuras/Primeiros-Passos/biblioteca_parte.pdf used o
@@ -1691,14 +1698,11 @@ n input line 71.
 Overfull \vbox (2.61115pt too high) detected at line 71
  []
 
-
-LaTeX Warning: Reference `lastframe' on page 8 undefined on input line 71.
-
 [8
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/biblioteca_parte.pdf>]
-<./figuras/Primeiros-Passos/biblioteca_barra_components.pdf, id=115, 1445.4pt x
+<./figuras/Primeiros-Passos/biblioteca_barra_components.pdf, id=195, 1445.4pt x
  102.42992pt>
 File: ./figuras/Primeiros-Passos/biblioteca_barra_components.pdf Graphic file (
 type pdf)
@@ -1707,7 +1711,7 @@ Package pdftex.def Info: ./figuras/Primeiros-Passos/biblioteca_barra_components
 .pdf used on input line 93.
 (pdftex.def)             Requested size: 366.9853pt x 26.00597pt.
 
-<./figuras/Primeiros-Passos/biblioteca_barra_models.pdf, id=116, 1445.4pt x 105
+<./figuras/Primeiros-Passos/biblioteca_barra_models.pdf, id=196, 1445.4pt x 105
 .27519pt>
 File: ./figuras/Primeiros-Passos/biblioteca_barra_models.pdf Graphic file (type
  pdf)
@@ -1715,11 +1719,7 @@ File: ./figuras/Primeiros-Passos/biblioteca_barra_models.pdf Graphic file (type
 Package pdftex.def Info: ./figuras/Primeiros-Passos/biblioteca_barra_models.pdf
  used on input line 93.
 (pdftex.def)             Requested size: 366.9853pt x 26.72835pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 9 undefined on input line 93.
-
-[9
+ [9
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/biblioteca_barra_components.pdf> <C:/Users/cleit/Documents/GitHub/
@@ -1729,22 +1729,18 @@ ls.pdf
 pdfTeX warning: pdflatex (file C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/
 APRESENTACAO-TEX/figuras/Primeiros-Passos/biblioteca_barra_models.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
->] <./figuras/Primeiros-Passos/new_case.pdf, id=132, 480.85158pt x 418.2555pt>
+>] <./figuras/Primeiros-Passos/new_case.pdf, id=212, 480.85158pt x 418.2555pt>
 File: ./figuras/Primeiros-Passos/new_case.pdf Graphic file (type pdf)
 
 <use ./figuras/Primeiros-Passos/new_case.pdf>
 Package pdftex.def Info: ./figuras/Primeiros-Passos/new_case.pdf used on input 
 line 130.
 (pdftex.def)             Requested size: 205.07788pt x 178.37848pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 10 undefined on input line 130.
-
-[10
+ [10
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/new_case.pdf>]
-<./figuras/Primeiros-Passos/Project_parameters.pdf, id=147, 1448.24522pt x 105.
+<./figuras/Primeiros-Passos/Project_parameters.pdf, id=227, 1448.24522pt x 105.
 27519pt>
 File: ./figuras/Primeiros-Passos/Project_parameters.pdf Graphic file (type pdf)
 
@@ -1752,44 +1748,32 @@ File: ./figuras/Primeiros-Passos/Project_parameters.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figuras/Primeiros-Passos/Project_parameters.pdf used
  on input line 158.
 (pdftex.def)             Requested size: 410.15578pt x 29.81418pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 11 undefined on input line 158.
-
-[11
+ [11
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/Project_parameters.pdf>]
-<./figuras/Primeiros-Passos/Sin_continuo.pdf, id=161, 518.6878pt x 336.50719pt>
+<./figuras/Primeiros-Passos/Sin_continuo.pdf, id=241, 518.6878pt x 336.50719pt>
 File: ./figuras/Primeiros-Passos/Sin_continuo.pdf Graphic file (type pdf)
 <use ./figuras/Primeiros-Passos/Sin_continuo.pdf>
 Package pdftex.def Info: ./figuras/Primeiros-Passos/Sin_continuo.pdf used on in
 put line 204.
 (pdftex.def)             Requested size: 205.07788pt x 133.0498pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 12 undefined on input line 204.
-
-[12
+ [12
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/Sin_continuo.pdf>]
-<./figuras/Primeiros-Passos/Sin_discreto1.pdf, id=192, 519.44063pt x 337.26pt>
+<./figuras/Primeiros-Passos/Sin_discreto1.pdf, id=272, 519.44063pt x 337.26pt>
 File: ./figuras/Primeiros-Passos/Sin_discreto1.pdf Graphic file (type pdf)
 
 <use ./figuras/Primeiros-Passos/Sin_discreto1.pdf>
 Package pdftex.def Info: ./figuras/Primeiros-Passos/Sin_discreto1.pdf used on i
 nput line 249.
 (pdftex.def)             Requested size: 205.07788pt x 133.1519pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 13 undefined on input line 249.
-
-[13
+ [13
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/Sin_discreto1.pdf>]
-<./figuras/Primeiros-Passos/Sin_discreto1_muito.pdf, id=231, 519.44063pt x 338.
+<./figuras/Primeiros-Passos/Sin_discreto1_muito.pdf, id=311, 519.44063pt x 338.
 01282pt>
 File: ./figuras/Primeiros-Passos/Sin_discreto1_muito.pdf Graphic file (type pdf
 )
@@ -1798,7 +1782,7 @@ Package pdftex.def Info: ./figuras/Primeiros-Passos/Sin_discreto1_muito.pdf use
 d on input line 288.
 (pdftex.def)             Requested size: 205.07788pt x 133.44911pt.
 
-<./figuras/Primeiros-Passos/Sin_discreto1_pouco.pdf, id=232, 519.44063pt x 338.
+<./figuras/Primeiros-Passos/Sin_discreto1_pouco.pdf, id=312, 519.44063pt x 338.
 01282pt>
 File: ./figuras/Primeiros-Passos/Sin_discreto1_pouco.pdf Graphic file (type pdf
 )
@@ -1806,11 +1790,7 @@ File: ./figuras/Primeiros-Passos/Sin_discreto1_pouco.pdf Graphic file (type pdf
 Package pdftex.def Info: ./figuras/Primeiros-Passos/Sin_discreto1_pouco.pdf use
 d on input line 288.
 (pdftex.def)             Requested size: 205.07788pt x 133.44911pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 14 undefined on input line 288.
-
-[14
+ [14
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/Sin_discreto1_muito.pdf> <C:/Users/cleit/Documents/GitHub/PSCAD-Mi
@@ -1819,22 +1799,18 @@ nicurso/APRESENTACAO-TEX/figuras/Primeiros-Passos/Sin_discreto1_pouco.pdf
 pdfTeX warning: pdflatex (file C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/
 APRESENTACAO-TEX/figuras/Primeiros-Passos/Sin_discreto1_pouco.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
->] <./figuras/Primeiros-Passos/circuito1.pdf, id=298, 967.3937pt x 537.7571pt>
+>] <./figuras/Primeiros-Passos/circuito1.pdf, id=378, 967.3937pt x 537.7571pt>
 File: ./figuras/Primeiros-Passos/circuito1.pdf Graphic file (type pdf)
 
 <use ./figuras/Primeiros-Passos/circuito1.pdf>
 Package pdftex.def Info: ./figuras/Primeiros-Passos/circuito1.pdf used on input
  line 308.
 (pdftex.def)             Requested size: 366.9853pt x 203.99698pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 15 undefined on input line 308.
-
-[15
+ [15
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/circuito1.pdf>]
-<./figuras/Primeiros-Passos/circuito1_Config_componentes.pdf, id=329, 1010.0728
+<./figuras/Primeiros-Passos/circuito1_Config_componentes.pdf, id=409, 1010.0728
 1pt x 312.98033pt>
 File: ./figuras/Primeiros-Passos/circuito1_Config_componentes.pdf Graphic file 
 (type pdf)
@@ -1843,40 +1819,86 @@ File: ./figuras/Primeiros-Passos/circuito1_Config_componentes.pdf Graphic file
 Package pdftex.def Info: ./figuras/Primeiros-Passos/circuito1_Config_componente
 s.pdf used on input line 326.
 (pdftex.def)             Requested size: 366.9853pt x 113.71393pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 16 undefined on input line 326.
-
-[16
+ [16
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/circuito1_Config_componentes.pdf>]
-<./figuras/Primeiros-Passos/circuito1_grafico.pdf, id=346, 711.31892pt x 347.12
+<./figuras/Primeiros-Passos/circuito1_grafico.pdf, id=426, 711.31892pt x 347.12
 363pt>
 File: ./figuras/Primeiros-Passos/circuito1_grafico.pdf Graphic file (type pdf)
  <use ./figuras/Primeiros-Passos/circuito1_grafico.pdf>
 Package pdftex.def Info: ./figuras/Primeiros-Passos/circuito1_grafico.pdf used 
 on input line 343.
 (pdftex.def)             Requested size: 366.9853pt x 179.08582pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 17 undefined on input line 343.
-
-[17
+ [17
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/circuito1_grafico.pdf>])
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\Minicurso-Vis
+ualizacao-resultados.tex
+File: ./logos/fundo_tese.png Graphic file (type png)
+ <use ./logos/fundo_tese.png>
+Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
+(pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
+ [18
+
+
+
+]
+<./figuras/Visualizacao-resultados/graficos-Selecao.pdf, id=621, 586.12677pt x 
+341.43306pt>
+File: ./figuras/Visualizacao-resultados/graficos-Selecao.pdf Graphic file (type
+ pdf)
+ <use ./figuras/Visualizacao-resultados/graficos-Selecao.pdf>
+Package pdftex.def Info: ./figuras/Visualizacao-resultados/graficos-Selecao.pdf
+ used on input line 29.
+(pdftex.def)             Requested size: 271.99588pt x 158.44171pt.
+
+[19
+
+ <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Visu
+alizacao-resultados/graficos-Selecao.pdf>]
+<./figuras/Visualizacao-resultados/graficos-escalas.pdf, id=639, 850.73743pt x 
+352.81418pt>
+File: ./figuras/Visualizacao-resultados/graficos-escalas.pdf Graphic file (type
+ pdf)
+ <use ./figuras/Visualizacao-resultados/graficos-escalas.pdf>
+Package pdftex.def Info: ./figuras/Visualizacao-resultados/graficos-escalas.pdf
+ used on input line 60.
+(pdftex.def)             Requested size: 271.99588pt x 112.80055pt.
+
+[20
+
+ <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Visu
+alizacao-resultados/graficos-escalas.pdf>] [21
+
+]
+<./figuras/Visualizacao-resultados/graficos-polygraph.pdf, id=662, 579.66562pt 
+x 289.08pt>
+File: ./figuras/Visualizacao-resultados/graficos-polygraph.pdf Graphic file (ty
+pe pdf)
+ <use ./figuras/Visualizacao-resultados/graficos-polygraph.pdf>
+Package pdftex.def Info: ./figuras/Visualizacao-resultados/graficos-polygraph.p
+df used on input line 114.
+(pdftex.def)             Requested size: 271.99588pt x 135.64265pt.
+
+[22
+
+ <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Visu
+alizacao-resultados/graficos-polygraph.pdf>] [23
+
+] [24
+
+] [25
+
+])
 (C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\Minicurso-Exp
 ortando-Dados.tex
 File: ./logos/fundo_tese.png Graphic file (type png)
  <use ./logos/fundo_tese.png>
 Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
 (pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 18 undefined on input line 1.
-
-[18
+ [26
 
 
 
@@ -1887,11 +1909,7 @@ File: ./logos/fundo_tese.png Graphic file (type png)
  <use ./logos/fundo_tese.png>
 Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
 (pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 19 undefined on input line 1.
-
-[19
+ [27
 
 
 
@@ -1902,11 +1920,7 @@ File: ./logos/fundo_tese.png Graphic file (type png)
  <use ./logos/fundo_tese.png>
 Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
 (pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 20 undefined on input line 1.
-
-[20
+ [28
 
 
 
@@ -1917,11 +1931,7 @@ File: ./logos/fundo_tese.png Graphic file (type png)
  <use ./logos/fundo_tese.png>
 Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
 (pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 21 undefined on input line 1.
-
-[21
+ [29
 
 
 
@@ -1932,11 +1942,7 @@ File: ./logos/fundo_tese.png Graphic file (type png)
  <use ./logos/fundo_tese.png>
 Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
 (pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 22 undefined on input line 1.
-
-[22
+ [30
 
 
 
@@ -1947,11 +1953,7 @@ File: ./logos/fundo_tese.png Graphic file (type png)
  <use ./logos/fundo_tese.png>
 Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
 (pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 23 undefined on input line 1.
-
-[23
+ [31
 
 
 
@@ -1962,11 +1964,7 @@ File: ./logos/fundo_tese.png Graphic file (type png)
  <use ./logos/fundo_tese.png>
 Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
 (pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 24 undefined on input line 1.
-
-[24
+ [32
 
 
 
@@ -1977,11 +1975,7 @@ File: ./logos/fundo_tese.png Graphic file (type png)
  <use ./logos/fundo_tese.png>
 Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
 (pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 25 undefined on input line 1.
-
-[25
+ [33
 
 
 
@@ -1992,11 +1986,7 @@ File: ./logos/fundo_tese.png Graphic file (type png)
  <use ./logos/fundo_tese.png>
 Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
 (pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 26 undefined on input line 1.
-
-[26
+ [34
 
 
 
@@ -2007,11 +1997,7 @@ File: ./logos/fundo_tese.png Graphic file (type png)
  <use ./logos/fundo_tese.png>
 Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
 (pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 27 undefined on input line 1.
-
-[27
+ [35
 
 
 
@@ -2019,62 +2005,59 @@ LaTeX Warning: Reference `lastframe' on page 27 undefined on input line 1.
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-LaTeX Font Info:    Try loading font information for U+mvs on input line 99.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\marvosym\umvs.fd")
-<./symbols/orcid.pdf, id=619, 25.09375pt x 25.09375pt>
+LaTeX Font Info:    Try loading font information for U+mvs on input line 100.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\marvosym\umvs.fd")
+<./symbols/orcid.pdf, id=755, 25.09375pt x 25.09375pt>
 File: ./symbols/orcid.pdf Graphic file (type pdf)
 
 <use ./symbols/orcid.pdf>
-Package pdftex.def Info: ./symbols/orcid.pdf used on input line 99.
+Package pdftex.def Info: ./symbols/orcid.pdf used on input line 100.
 (pdftex.def)             Requested size: 15.11263pt x 15.11302pt.
 
-<./symbols/researchgate.pdf, id=621, 25.09375pt x 25.09375pt>
+<./symbols/researchgate.pdf, id=757, 25.09375pt x 25.09375pt>
 File: ./symbols/researchgate.pdf Graphic file (type pdf)
 
 <use ./symbols/researchgate.pdf>
-Package pdftex.def Info: ./symbols/researchgate.pdf used on input line 99.
+Package pdftex.def Info: ./symbols/researchgate.pdf used on input line 100.
 (pdftex.def)             Requested size: 15.11263pt x 15.11302pt.
 
-<./symbols/lattes.pdf, id=623, 714.67pt x 475.7775pt>
+<./symbols/lattes.pdf, id=759, 714.67pt x 475.7775pt>
 File: ./symbols/lattes.pdf Graphic file (type pdf)
 
 <use ./symbols/lattes.pdf>
-Package pdftex.def Info: ./symbols/lattes.pdf used on input line 99.
+Package pdftex.def Info: ./symbols/lattes.pdf used on input line 100.
 (pdftex.def)             Requested size: 21.58853pt x 14.36708pt.
 
-<./symbols/GoogleScholar25x25.pdf, id=625, 25.09375pt x 25.09375pt>
+<./symbols/GoogleScholar25x25.pdf, id=761, 25.09375pt x 25.09375pt>
 File: ./symbols/GoogleScholar25x25.pdf Graphic file (type pdf)
 
 <use ./symbols/GoogleScholar25x25.pdf>
-Package pdftex.def Info: ./symbols/GoogleScholar25x25.pdf used on input line 99
-.
+Package pdftex.def Info: ./symbols/GoogleScholar25x25.pdf used on input line 10
+0.
 (pdftex.def)             Requested size: 15.11263pt x 15.11302pt.
 
-<./symbols/github.png, id=627, 12.848pt x 12.848pt>
+<./symbols/github.png, id=763, 12.848pt x 12.848pt>
 File: ./symbols/github.png Graphic file (type png)
  <use ./symbols/github.png>
-Package pdftex.def Info: ./symbols/github.png used on input line 99.
+Package pdftex.def Info: ./symbols/github.png used on input line 100.
 (pdftex.def)             Requested size: 15.11263pt x 15.11285pt.
 
-<./symbols/site2.png, id=629, 513.92pt x 513.92pt>
+<./symbols/site2.png, id=765, 513.92pt x 513.92pt>
 File: ./symbols/site2.png Graphic file (type png)
  <use ./symbols/site2.png>
-Package pdftex.def Info: ./symbols/site2.png used on input line 99.
+Package pdftex.def Info: ./symbols/site2.png used on input line 100.
 (pdftex.def)             Requested size: 15.11263pt x 15.1111pt.
 File: ./logos/logomarca-uerj.png Graphic file (type png)
 
 <use ./logos/logomarca-uerj.png>
-Package pdftex.def Info: ./logos/logomarca-uerj.png used on input line 99.
+Package pdftex.def Info: ./logos/logomarca-uerj.png used on input line 100.
 (pdftex.def)             Requested size: 64.759pt x 64.75917pt.
 File: ./logos/fundo_tese.png Graphic file (type png)
  <use ./logos/fundo_tese.png>
-Package pdftex.def Info: ./logos/fundo_tese.png used on input line 99.
+Package pdftex.def Info: ./logos/fundo_tese.png used on input line 100.
 (pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
-
-
-LaTeX Warning: Reference `lastframe' on page 28 undefined on input line 99.
-
-[28
+ [36
 
 
 
@@ -2100,8 +2083,8 @@ with page group included in a single page
 > <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/symbols/git
 hub.png> <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/symb
 ols/site2.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
 
 ("C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Slides
  - Minicurso PSCAD.aux"
@@ -2109,6 +2092,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
 so-Visao-Geral.aux)
 (C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
 so-Primeiros-Passos.aux)
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
+so-Visualizacao-resultados.aux)
 (C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
 so-Exportando-Dados.aux)
 (C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
@@ -2129,8 +2114,8 @@ so-Aplicacao-Maquinas.aux)
 so-Aplicacao-Faltas.aux)
 (C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
 so-Conclusoes.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 Package rerunfilecheck Info: File `Slides*-*Minicurso*PSCAD.out' has not change
 d.
 (rerunfilecheck)             Checksum: <no file>.
@@ -2140,21 +2125,18 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
- 30986 strings out of 493921
- 671250 string characters out of 3147282
- 829574 words of memory out of 3000000
- 33460 multiletter control sequences out of 15000+200000
- 11518 words of font info for 42 fonts, out of 3000000 for 9000
+ 31231 strings out of 493921
+ 678665 string characters out of 3147282
+ 837608 words of memory out of 3000000
+ 33643 multiletter control sequences out of 15000+200000
+ 11524 words of font info for 42 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 59i,16n,71p,973b,891s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,16n,71p,973b,892s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
@@ -2166,9 +2148,9 @@ s/cm/cmssi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 ssi17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/marvosym/marvosym.pfb
 >
 Output written on "C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO
--TEX/build/Slides - Minicurso PSCAD.pdf" (28 pages, 1099497 bytes).
+-TEX/build/Slides - Minicurso PSCAD.pdf" (36 pages, 1202250 bytes).
 PDF statistics:
- 706 PDF objects out of 1000 (max. 8388607)
- 71 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 846 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
+ 315 words of extra memory for PDF output out of 10000 (max. 10000000)
 

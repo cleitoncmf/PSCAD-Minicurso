@@ -1,7 +1,7 @@
 <project name="SIM1" version="4.6.3" schema="" Target="EMTDC">
   <paramlist name="Settings">
     <param name="creator" value="cleit,1607979269" />
-    <param name="time_duration" value="0.5" />
+    <param name="time_duration" value="0.2" />
     <param name="time_step" value="50" />
     <param name="sample_step" value="250" />
     <param name="chatter_threshold" value=".001" />
@@ -21,13 +21,50 @@
     <param name="Warn" value="0" />
     <param name="Check" value="0" />
     <param name="description" value="" />
-    <param name="revisor" value="cleit, 1607995173" />
+    <param name="revisor" value="cleit, 1608001739" />
   </paramlist>
   <paramlist name="Libs" />
   <Layers />
-  <List classid="Settings" />
+  <List classid="Settings">
+    <Settings classid="GraphFrameSettings" id="267870910" link="724060553">
+      <path>
+        <ref link="1249878317" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="0.0" />
+        <param name="xmax" value="0.2" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1714972286" link="723275525">
+      <path>
+        <ref link="1249878317" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-2.0" />
+        <param name="ymax" value="2.0" />
+      </paramlist>
+    </Settings>
+    <Settings classid="GraphFrameSettings" id="1036966458" link="1951537385">
+      <path>
+        <ref link="1249878317" />
+      </path>
+      <paramlist>
+        <param name="xmin" value="0.115" />
+        <param name="xmax" value="0.16" />
+      </paramlist>
+    </Settings>
+    <Settings classid="OverlayGraphSettings" id="1000227803" link="1897765206">
+      <path>
+        <ref link="1249878317" />
+      </path>
+      <paramlist>
+        <param name="ymin" value="-15.0" />
+        <param name="ymax" value="15.0" />
+      </paramlist>
+    </Settings>
+  </List>
   <definitions>
-    <Definition classid="StationDefn" name="Station" id="1721670892" group="" url="" version="" build="" crc="100808957" view="false">
+    <Definition classid="StationDefn" name="Station" id="1721670892" group="" url="" version="" build="" crc="100808957" view="false" date="1607995433">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -54,7 +91,7 @@
         </Wire>
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="Main" id="1079361955" group="" url="" version="" build="" crc="106440345" view="false" date="0">
+    <Definition classid="UserCmpDefn" name="Main" id="1079361955" group="" url="" version="" build="" crc="21730070" view="false" date="0">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -75,13 +112,13 @@
           <param name="show_sequence" value="0" />
           <param name="auto_sequence" value="1" />
         </paramlist>
-        <User classid="UserCmp" defn="master:source3" id="119983459" x="234" y="378" w="48" h="89" z="0" orient="3" link="-1" layer="" q="4">
+        <User classid="UserCmp" defn="master:source3" id="119983459" x="234" y="378" w="48" h="89" z="1" orient="3" link="-1" layer="" q="4">
           <paramlist link="-1" name="" crc="91558772">
             <param name="Name" value="Source1" />
-            <param name="Type" value="1" />
+            <param name="Type" value="2" />
             <param name="Ctrl" value="0" />
-            <param name="MVA" value="100.0 [MVA]" />
-            <param name="Vm" value="230.0 [kV]" />
+            <param name="MVA" value="1.0 [MVA]" />
+            <param name="Vm" value="13.8 [kV]" />
             <param name="F" value="60.0 [Hz]" />
             <param name="Tc" value="0.05 [s]" />
             <param name="ZSeq" value="0" />
@@ -91,7 +128,7 @@
             <param name="Term" value="0" />
             <param name="R1s" value="1.0 [ohm]" />
             <param name="R1p" value="1.0 [ohm]" />
-            <param name="L1p" value="0.1 [H]" />
+            <param name="L1p" value="0.026 [H]" />
             <param name="Z1" value="1.0 [ohm]" />
             <param name="Phi1" value="80.0 [deg]" />
             <param name="RN" value="2.0" />
@@ -102,7 +139,7 @@
             <param name="L0s" value="0.0001 [H]" />
             <param name="Z0" value="1.0 [ohm]" />
             <param name="Phi0" value="80.0 [deg]" />
-            <param name="Es" value="230.0 [kV]" />
+            <param name="Es" value="13.8 [kV]" />
             <param name="F0" value="60.0 [Hz]" />
             <param name="Ph" value="0.0 [deg]" />
             <param name="Pinit" value="0.0 [pu]" />
@@ -128,19 +165,19 @@
         <User classid="UserCmp" defn="master:ground" id="1771592258" x="234" y="414" w="22" h="28" z="0" orient="1" link="-1" layer="" q="4">
           <paramlist link="-1" name="" crc="28206164" />
         </User>
-        <User classid="UserCmp" name="master:ammeter" id="1989673740" x="324" y="252" w="40" h="26" z="-1" orient="0" defn="master:ammeter" link="-1" q="4">
+        <User classid="UserCmp" name="master:ammeter" id="1989673740" x="324" y="252" w="40" h="26" z="10" orient="0" defn="master:ammeter" link="-1" q="4">
           <paramlist link="-1" name="" crc="119264497">
             <param name="Name" value="Ia" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:voltmetergnd" id="2061132994" x="486" y="306" w="18" h="31" z="-1" orient="0" defn="master:voltmetergnd" link="-1" q="4">
+        <User classid="UserCmp" name="master:voltmetergnd" id="2061132994" x="486" y="306" w="18" h="31" z="20" orient="0" defn="master:voltmetergnd" link="-1" q="4">
           <paramlist link="-1" name="" crc="116145885">
             <param name="Name" value="Ea" />
           </paramlist>
         </User>
-        <User classid="UserCmp" defn="master:resistor" id="2078037683" x="594" y="324" w="30" h="66" z="0" orient="7" link="-1" q="4">
+        <User classid="UserCmp" defn="master:resistor" id="2078037683" x="594" y="324" w="30" h="66" z="1" orient="7" link="-1" q="4">
           <paramlist link="-1" name="" crc="10319542">
-            <param name="R" value="1.0 [ohm]" />
+            <param name="R" value="190 [ohm]" />
           </paramlist>
         </User>
         <User classid="UserCmp" defn="master:ground" id="823753654" x="594" y="414" w="22" h="28" z="0" orient="1" link="-1" q="4">
@@ -164,12 +201,12 @@
           <vertex x="0" y="0" />
           <vertex x="0" y="-54" />
         </Wire>
-        <User classid="UserCmp" name="master:datalabel" id="2144296949" x="432" y="594" w="18" h="21" z="-1" orient="0" defn="master:datalabel" link="-1" q="4">
+        <User classid="UserCmp" name="master:datalabel" id="2144296949" x="234" y="612" w="18" h="21" z="1" orient="0" defn="master:datalabel" link="-1" q="4">
           <paramlist link="-1" name="" crc="98359112">
             <param name="Name" value="Ia" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:pgb" id="44310447" x="504" y="594" w="38" h="38" z="-1" orient="0" defn="master:pgb" link="-1" q="4">
+        <User classid="UserCmp" name="master:pgb" id="44310447" x="306" y="612" w="38" h="38" z="30" orient="0" defn="master:pgb" link="-1" q="4">
           <paramlist link="-1" name="" crc="25850285">
             <param name="Name" value="Ia" />
             <param name="Group" value="" />
@@ -180,19 +217,19 @@
             <param name="Units" value="" />
             <param name="mrun" value="0" />
             <param name="Pol" value="0" />
-            <param name="Max" value="2.0" />
-            <param name="Min" value="-2.0" />
+            <param name="Max" value="1" />
+            <param name="Min" value="-1" />
           </paramlist>
         </User>
-        <Wire classid="WireOrthogonal" id="1580950156" name="" x="432" y="594" w="82" h="10" orient="0">
+        <Wire classid="WireOrthogonal" id="1580950156" name="" x="234" y="612" w="82" h="10" orient="0">
           <vertex x="0" y="0" />
           <vertex x="72" y="0" />
         </Wire>
-        <Wire classid="WireOrthogonal" id="1531246049" name="" x="432" y="684" w="82" h="10" orient="0">
+        <Wire classid="WireOrthogonal" id="1531246049" name="" x="234" y="702" w="82" h="10" orient="0">
           <vertex x="0" y="0" />
           <vertex x="72" y="0" />
         </Wire>
-        <User classid="UserCmp" name="master:pgb" id="1174939405" x="504" y="684" w="38" h="38" z="-1" orient="0" defn="master:pgb" link="-1" q="4">
+        <User classid="UserCmp" name="master:pgb" id="1174939405" x="306" y="702" w="38" h="38" z="40" orient="0" defn="master:pgb" link="-1" q="4">
           <paramlist link="-1" name="" crc="25850285">
             <param name="Name" value="Ea" />
             <param name="Group" value="" />
@@ -207,11 +244,111 @@
             <param name="Min" value="-2.0" />
           </paramlist>
         </User>
-        <User classid="UserCmp" name="master:datalabel" id="764206877" x="432" y="684" w="18" h="21" z="-1" orient="0" defn="master:datalabel" link="-1" q="4">
+        <User classid="UserCmp" name="master:datalabel" id="764206877" x="234" y="702" w="18" h="21" z="1" orient="0" defn="master:datalabel" link="-1" q="4">
           <paramlist link="-1" name="" crc="98359112">
             <param name="Name" value="Ea" />
           </paramlist>
         </User>
+        <Frame classid="GraphFrame" id="724060553" name="frame" x="360" y="594" w="576" h="288" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Icon" value="-1,0" />
+            <param name="state" value="1" />
+            <param name="title" value="$(GROUP) : Graphs" />
+            <param name="XLabel" value="sec" />
+            <param name="Pan" value="false,75" />
+            <param name="markers" value="false" />
+            <param name="glyphs" value="false" />
+            <param name="ticks" value="false" />
+            <param name="grid" value="false" />
+            <param name="yinter" value="false" />
+            <param name="xinter" value="false" />
+            <param name="snapaperture" value="false" />
+            <param name="dynaperture" value="true" />
+            <param name="minorgrids" value="false" />
+            <param name="lockmarkers" value="false" />
+            <param name="deltareadout" value="false" />
+            <param name="xmarker" value="0" />
+            <param name="omarker" value="0" />
+          </paramlist>
+          <paramlist link="724060553" name="">
+            <param name="xmin" value="0.0" />
+            <param name="xmax" value="1.0" />
+          </paramlist>
+          <Graph classid="OverlayGraph" id="723275525" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="Corrente" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="0.500000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="723275525" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" id="1644957470" name="Ia" link="44310447" color="0" bold="1" show="-7" mode="0" />
+          </Graph>
+        </Frame>
+        <Frame classid="GraphFrame" id="1951537385" name="frame" x="954" y="594" w="576" h="288" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Icon" value="-1,0" />
+            <param name="state" value="1" />
+            <param name="title" value="$(GROUP) : Graphs" />
+            <param name="XLabel" value="sec" />
+            <param name="Pan" value="false,75" />
+            <param name="markers" value="false" />
+            <param name="glyphs" value="false" />
+            <param name="ticks" value="false" />
+            <param name="grid" value="false" />
+            <param name="yinter" value="false" />
+            <param name="xinter" value="false" />
+            <param name="snapaperture" value="false" />
+            <param name="dynaperture" value="true" />
+            <param name="minorgrids" value="false" />
+            <param name="lockmarkers" value="false" />
+            <param name="deltareadout" value="false" />
+            <param name="xmarker" value="0" />
+            <param name="omarker" value="0" />
+          </paramlist>
+          <paramlist link="1951537385" name="">
+            <param name="xmin" value="0.0" />
+            <param name="xmax" value="1.0" />
+          </paramlist>
+          <Graph classid="OverlayGraph" id="1897765206" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="5.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="1897765206" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" id="1353487904" name="Ea" link="1174939405" color="0" bold="0" show="-1" mode="0" />
+          </Graph>
+        </Frame>
       </schematic>
       <references>
         <using namespace="master" />
