@@ -20,7 +20,7 @@
     <Window defn="SIM1:Main" call="0" />
   </ViewContext>
   <List classid="View">
-    <View name="Main" zoomlevel="7" scrollx="0" scrolly="797" />
+    <View name="Main" zoomlevel="7" scrollx="242" scrolly="749" />
   </List>
   <Output device="EMTDC" version="2010" date="2020/12/15" time="00:39:05.000000">
     <Domain name="Time" unit="s" mult="0.0" skew="0.0">

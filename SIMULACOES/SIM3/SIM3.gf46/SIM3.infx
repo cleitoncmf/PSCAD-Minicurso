@@ -1,0 +1,20 @@
+<Output device="EMTDC" version="2010" date="2020/12/15" time="17:34:30.000000">
+  <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+    <Sample rate="3846.15384615" end="385" />
+  </Domain>
+  <List classid="Analog">
+    <Analog name="Main(0):Ia" index="0" id="349710802:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+    <Analog name="Main(0):Ib" index="3" id="932761269:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+    <Analog name="Main(0):Ic" index="6" id="1337059029:0" label="" dim="3" unit="" min="-0.010" max="0.010" />
+    <Analog name="Main(0):Va" index="9" id="1446128169:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+    <Analog name="Main(0):Vb" index="12" id="1476946194:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+    <Analog name="Main(0):Vc" index="15" id="1356888729:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+    <Analog name="Main(0):Pa" index="18" id="1281934509:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    <Analog name="Main(0):Pb" index="19" id="1868725350:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    <Analog name="Main(0):Pc" index="20" id="1104349688:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    <Analog name="Main(0):Qa" index="21" id="1082594100:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    <Analog name="Main(0):Qb" index="22" id="38989192:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    <Analog name="Main(0):Qc" index="23" id="328496840:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+  </List>
+  <List classid="Digital" />
+</Output>

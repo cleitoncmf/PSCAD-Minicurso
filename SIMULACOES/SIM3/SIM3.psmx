@@ -1,0 +1,45 @@
+<Meta name="SIM2c">
+  <messagelist>
+    <message status="normal" label="build" groupid="100006">
+      <User scope="SIM3" name="Main" status="normal" link="718993563" /><![CDATA[Generating network and source code 'C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM3\SIM3.gf46\Main.f'.]]></message>
+    <message status="normal" label="build" scope="SIM3" groupid="100006"><![CDATA[Generating 'C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM3\SIM3.gf46\SIM3.map'.]]></message>
+    <message status="normal" label="build" scope="SIM3" groupid="100014"><![CDATA[The total number of live nodes: 9]]></message>
+    <message status="normal" label="build" scope="SIM3" groupid="100001"><![CDATA[Non-professional licenses are limited to a single, electrical subsystem. Subsystem splitting has been internally disabled for this simulation.]]></message>
+    <message status="normal" label="build" scope="SIM3" groupid="400000"><![CDATA[Time for Compile: 63ms  Make: 15ms]]></message>
+    <message status="normal" label="build" scope="SIM3" groupid="100015"><![CDATA[Will execute (1): call C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat]]></message>
+    <message status="normal" label="build" scope="SIM3" groupid="100015"><![CDATA[Will execute (1): call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat"]]></message>
+    <message status="normal" label="build" scope="SIM3" groupid="100015"><![CDATA[Will execute (2): make -f SIM3.mak]]></message>
+    <message status="normal" label="build" scope="SIM3" groupid="100015"><![CDATA[Will execute (2): "C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM3\SIM3.gf46\SIM3.mak.bat"]]></message>
+    <message status="normal" label="build" scope="SIM3" groupid="100005"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" scope="SIM3" groupid="0"><![CDATA[C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM3\SIM3.gf46>call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat" ]]></message>
+    <message status="normal" label="build" scope="SIM3" groupid="100012"><![CDATA[Linking objects and libraries into binary 'SIM3.exe']]></message>
+    <message status="normal" label="build" scope="SIM3" groupid="400000"><![CDATA[Solve Time = 16ms]]></message>
+  </messagelist>
+  <Catalog count="0" />
+  <ViewContext>
+    <Window defn="SIM3:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomlevel="6" scrollx="0" scrolly="288" />
+  </List>
+  <Output device="EMTDC" version="2010" date="2020/12/15" time="17:30:02.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="3846.15384615" end="1923" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):Ia" index="0" id="349710802:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Ib" index="3" id="932761269:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Ic" index="6" id="1337059029:0" label="" dim="3" unit="" min="-0.10" max="0.10" />
+      <Analog name="Main(0):Va" index="9" id="1446128169:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Vb" index="12" id="1476946194:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Vc" index="15" id="1356888729:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Pa" index="18" id="1281934509:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Pb" index="19" id="1868725350:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Pc" index="20" id="1104349688:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Qa" index="21" id="1082594100:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Qb" index="22" id="38989192:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Qc" index="23" id="328496840:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>

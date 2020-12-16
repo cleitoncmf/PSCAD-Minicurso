@@ -1,0 +1,36 @@
+<Meta name="SIM2">
+  <messagelist>
+    <message status="normal" label="build" groupid="100006">
+      <User scope="SIM2c" name="Main" status="normal" link="718993563" /><![CDATA[Generating network and source code 'C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM2\SIM2c.gf46\Main.f'.]]></message>
+    <message status="normal" label="build" scope="SIM2c" groupid="100006"><![CDATA[Generating 'C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM2\SIM2c.gf46\SIM2c.map'.]]></message>
+    <message status="normal" label="build" scope="SIM2c" groupid="100014"><![CDATA[The total number of live nodes: 12]]></message>
+    <message status="normal" label="build" scope="SIM2c" groupid="100001"><![CDATA[Non-professional licenses are limited to a single, electrical subsystem. Subsystem splitting has been internally disabled for this simulation.]]></message>
+    <message status="normal" label="build" scope="SIM2c" groupid="400000"><![CDATA[Time for Compile: 63ms  Make: 0ms]]></message>
+    <message status="normal" label="build" scope="SIM2c" groupid="100015"><![CDATA[Will execute (1): call C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat]]></message>
+    <message status="normal" label="build" scope="SIM2c" groupid="100015"><![CDATA[Will execute (1): call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat"]]></message>
+    <message status="normal" label="build" scope="SIM2c" groupid="100015"><![CDATA[Will execute (2): make -f SIM2c.mak]]></message>
+    <message status="normal" label="build" scope="SIM2c" groupid="100015"><![CDATA[Will execute (2): "C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM2\SIM2c.gf46\SIM2c.mak.bat"]]></message>
+    <message status="normal" label="build" scope="SIM2c" groupid="100005"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" scope="SIM2c" groupid="0"><![CDATA[C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM2\SIM2c.gf46>call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat" ]]></message>
+    <message status="normal" label="build" scope="SIM2c" groupid="100004"><![CDATA[Compiling 'Station.f' into object code.]]></message>
+    <message status="normal" label="build" scope="SIM2c" groupid="100004"><![CDATA[Compiling 'Main.f' into object code.]]></message>
+    <message status="normal" label="build" scope="SIM2c" groupid="100012"><![CDATA[Linking objects and libraries into binary 'SIM2c.exe']]></message>
+    <message status="normal" label="build" scope="SIM2c" groupid="400000"><![CDATA[Solve Time = 32ms]]></message>
+  </messagelist>
+  <List classid="Settings" />
+  <ViewContext>
+    <Window defn="SIM2:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomlevel="6" scrollx="119" scrolly="396" />
+  </List>
+  <Output device="EMTDC" version="2010" date="2020/12/15" time="14:56:49.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="3846.15384615" end="1923" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):Fasores" index="0" id="104535382:0" label="" dim="12" unit="" min="-2.0" max="2.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>
