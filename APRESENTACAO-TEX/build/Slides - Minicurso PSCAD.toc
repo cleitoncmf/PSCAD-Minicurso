@@ -1,8 +1,9 @@
 \beamer@endinputifotherversion {3.33pt}
 \select@language {portuguese}
-\beamer@sectionintoc {1}{Vis\IeC {\~a}o Geral do PSCAD}{3}{0}{1}
-\beamer@sectionintoc {2}{Primeiros Passos no PSCAD}{4}{0}{2}
-\beamer@sectionintoc {3}{Visualiza\IeC {\c c}\IeC {\~a}o de Resultados: Alguns Detalhes}{18}{0}{3}
-\beamer@sectionintoc {4}{Circuitos Simples para Aprender Usar Outros Blocos}{25}{0}{4}
-\beamer@sectionintoc {5}{Exportando Dados}{37}{0}{5}
-\beamer@sectionintoc {6}{Automa\IeC {\c c}\IeC {\~a}o de Simula\IeC {\c c}\IeC {\~o}es}{46}{0}{6}
+\beamer@sectionintoc {1}{Vis\IeC {\~a}o Geral do PSCAD e do Curso}{3}{0}{1}
+\beamer@sectionintoc {2}{Primeiros Passos no PSCAD}{8}{0}{2}
+\beamer@sectionintoc {3}{Visualiza\IeC {\c c}\IeC {\~a}o de Resultados: Alguns Detalhes}{22}{0}{3}
+\beamer@sectionintoc {4}{Circuitos Simples para Aprender Usar Outros Blocos}{29}{0}{4}
+\beamer@sectionintoc {5}{Exportando Dados}{41}{0}{5}
+\beamer@sectionintoc {6}{Automa\IeC {\c c}\IeC {\~a}o de Simula\IeC {\c c}\IeC {\~o}es}{50}{0}{6}
+\beamer@sectionintoc {7}{Cria\IeC {\c c}\IeC {\~a}o de Componentes e Bibliotecas}{56}{0}{7}

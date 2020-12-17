@@ -1,0 +1,11 @@
+<Meta name="LIBTESTE">
+  <messagelist />
+  <List classid="Settings" />
+  <ViewContext>
+    <Window defn="LIBTESTE:Main" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomlevel="6" scrollx="0" scrolly="0" />
+  </List>
+  <Catalog count="0" />
+</Meta>
