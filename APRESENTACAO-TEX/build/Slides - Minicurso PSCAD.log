@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2019.3.24)  15 DEC 2020 20:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2019.3.24)  16 DEC 2020 21:40
 entering extended mode
 **Slides*-*Minicurso*PSCAD.tex
 
@@ -1453,21 +1453,23 @@ so-Visualizacao-resultados.aux)
 (C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
 so-Segundo-Circuito.aux)
 (C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
-so-Exportando-Dados.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
+so-Exportando-Dados.aux)
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
+so-Automacao-Simulacao.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1518,7 +1520,7 @@ LaTeX Font Info:    ... okay on input line 66.
 \everyMPtoPDFconversion=\toks53
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box112
-Package hyperref Info: Link coloring ON on input line 66.
+Package hyperref Info: Link coloring ON on input line 68.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1528,9 +1530,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count209
 )
-LaTeX Info: Redefining \ref on input line 66.
-LaTeX Info: Redefining \pageref on input line 66.
-LaTeX Info: Redefining \nameref on input line 66.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 
 ("C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Slides
  - Minicurso PSCAD.out")
@@ -1562,7 +1564,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 -theorem-dictionary\translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 66.
+LaTeX Info: Redefining \includegraphics on input line 68.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: Incompatible package detected (regarding \caption).
@@ -1579,27 +1581,27 @@ See the caption package documentation for explanation.
 
 Package caption Info: End \AtBeginDocument code.
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 66.
+LaTeX Info: Redefining \selectfont on input line 68.
 
 ("C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Slides
  - Minicurso PSCAD.nav")
-<./logos/logomarca-uerj.png, id=43, 429.605pt x 429.605pt>
+<./logos/logomarca-uerj.png, id=47, 429.605pt x 429.605pt>
 File: ./logos/logomarca-uerj.png Graphic file (type png)
 
 <use ./logos/logomarca-uerj.png>
-Package pdftex.def Info: ./logos/logomarca-uerj.png used on input line 71.
+Package pdftex.def Info: ./logos/logomarca-uerj.png used on input line 73.
 (pdftex.def)             Requested size: 64.759pt x 64.75917pt.
 
-<./logos/fundo_tese.png, id=45, 1204.5pt x 677.53125pt>
+<./logos/fundo_tese.png, id=49, 1204.5pt x 677.53125pt>
 File: ./logos/fundo_tese.png Graphic file (type png)
 
 <use ./logos/fundo_tese.png>
-Package pdftex.def Info: ./logos/fundo_tese.png used on input line 71.
+Package pdftex.def Info: ./logos/fundo_tese.png used on input line 73.
 (pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 71.
+(Font)              size <5> substituted on input line 73.
 
 [1
 
@@ -1641,7 +1643,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 24.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<./figuras/Primeiros-Passos/login.pdf, id=90, 1058.44249pt x 748.30751pt>
+<./figuras/Primeiros-Passos/login.pdf, id=95, 1058.44249pt x 748.30751pt>
 File: ./figuras/Primeiros-Passos/login.pdf Graphic file (type pdf)
 
 <use ./figuras/Primeiros-Passos/login.pdf>
@@ -1652,7 +1654,7 @@ e 24.
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/login.pdf>]
-<./figuras/Primeiros-Passos/tela_inicial.pdf, id=103, 1451.09058pt x 779.60553p
+<./figuras/Primeiros-Passos/tela_inicial.pdf, id=108, 1451.09058pt x 779.60553p
 t>
 File: ./figuras/Primeiros-Passos/tela_inicial.pdf Graphic file (type pdf)
  <use ./figuras/Primeiros-Passos/tela_inicial.pdf>
@@ -1663,7 +1665,7 @@ put line 38.
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/tela_inicial.pdf>]
-<./figuras/Primeiros-Passos/biblioteca_master.pdf, id=114, 1126.7291pt x 648.72
+<./figuras/Primeiros-Passos/biblioteca_master.pdf, id=119, 1126.7291pt x 648.72
 281pt>
 File: ./figuras/Primeiros-Passos/biblioteca_master.pdf Graphic file (type pdf)
  <use ./figuras/Primeiros-Passos/biblioteca_master.pdf>
@@ -1678,7 +1680,7 @@ Overfull \vbox (2.61115pt too high) detected at line 55
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/biblioteca_master.pdf>]
-<./figuras/Primeiros-Passos/biblioteca_parte.pdf, id=126, 1126.7291pt x 648.722
+<./figuras/Primeiros-Passos/biblioteca_parte.pdf, id=131, 1126.7291pt x 648.722
 81pt>
 File: ./figuras/Primeiros-Passos/biblioteca_parte.pdf Graphic file (type pdf)
  <use ./figuras/Primeiros-Passos/biblioteca_parte.pdf>
@@ -1693,7 +1695,7 @@ Overfull \vbox (2.61115pt too high) detected at line 71
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/biblioteca_parte.pdf>]
-<./figuras/Primeiros-Passos/biblioteca_barra_components.pdf, id=148, 1445.4pt x
+<./figuras/Primeiros-Passos/biblioteca_barra_components.pdf, id=153, 1445.4pt x
  102.42992pt>
 File: ./figuras/Primeiros-Passos/biblioteca_barra_components.pdf Graphic file (
 type pdf)
@@ -1702,7 +1704,7 @@ Package pdftex.def Info: ./figuras/Primeiros-Passos/biblioteca_barra_components
 .pdf used on input line 93.
 (pdftex.def)             Requested size: 366.9853pt x 26.00597pt.
 
-<./figuras/Primeiros-Passos/biblioteca_barra_models.pdf, id=149, 1445.4pt x 105
+<./figuras/Primeiros-Passos/biblioteca_barra_models.pdf, id=154, 1445.4pt x 105
 .27519pt>
 File: ./figuras/Primeiros-Passos/biblioteca_barra_models.pdf Graphic file (type
  pdf)
@@ -1720,7 +1722,7 @@ ls.pdf
 pdfTeX warning: pdflatex (file C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/
 APRESENTACAO-TEX/figuras/Primeiros-Passos/biblioteca_barra_models.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
->] <./figuras/Primeiros-Passos/new_case.pdf, id=165, 480.85158pt x 418.2555pt>
+>] <./figuras/Primeiros-Passos/new_case.pdf, id=170, 480.85158pt x 418.2555pt>
 File: ./figuras/Primeiros-Passos/new_case.pdf Graphic file (type pdf)
 
 <use ./figuras/Primeiros-Passos/new_case.pdf>
@@ -1731,7 +1733,7 @@ line 130.
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/new_case.pdf>]
-<./figuras/Primeiros-Passos/Project_parameters.pdf, id=180, 1448.24522pt x 105.
+<./figuras/Primeiros-Passos/Project_parameters.pdf, id=185, 1448.24522pt x 105.
 27519pt>
 File: ./figuras/Primeiros-Passos/Project_parameters.pdf Graphic file (type pdf)
 
@@ -1743,7 +1745,7 @@ Package pdftex.def Info: ./figuras/Primeiros-Passos/Project_parameters.pdf used
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/Project_parameters.pdf>]
-<./figuras/Primeiros-Passos/Sin_continuo.pdf, id=194, 518.6878pt x 336.50719pt>
+<./figuras/Primeiros-Passos/Sin_continuo.pdf, id=199, 518.6878pt x 336.50719pt>
 File: ./figuras/Primeiros-Passos/Sin_continuo.pdf Graphic file (type pdf)
 <use ./figuras/Primeiros-Passos/Sin_continuo.pdf>
 Package pdftex.def Info: ./figuras/Primeiros-Passos/Sin_continuo.pdf used on in
@@ -1753,7 +1755,7 @@ put line 204.
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/Sin_continuo.pdf>]
-<./figuras/Primeiros-Passos/Sin_discreto1.pdf, id=225, 519.44063pt x 337.26pt>
+<./figuras/Primeiros-Passos/Sin_discreto1.pdf, id=230, 519.44063pt x 337.26pt>
 File: ./figuras/Primeiros-Passos/Sin_discreto1.pdf Graphic file (type pdf)
 
 <use ./figuras/Primeiros-Passos/Sin_discreto1.pdf>
@@ -1764,7 +1766,7 @@ nput line 249.
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/Sin_discreto1.pdf>]
-<./figuras/Primeiros-Passos/Sin_discreto1_muito.pdf, id=264, 519.44063pt x 338.
+<./figuras/Primeiros-Passos/Sin_discreto1_muito.pdf, id=269, 519.44063pt x 338.
 01282pt>
 File: ./figuras/Primeiros-Passos/Sin_discreto1_muito.pdf Graphic file (type pdf
 )
@@ -1773,7 +1775,7 @@ Package pdftex.def Info: ./figuras/Primeiros-Passos/Sin_discreto1_muito.pdf use
 d on input line 288.
 (pdftex.def)             Requested size: 205.07788pt x 133.44911pt.
 
-<./figuras/Primeiros-Passos/Sin_discreto1_pouco.pdf, id=265, 519.44063pt x 338.
+<./figuras/Primeiros-Passos/Sin_discreto1_pouco.pdf, id=270, 519.44063pt x 338.
 01282pt>
 File: ./figuras/Primeiros-Passos/Sin_discreto1_pouco.pdf Graphic file (type pdf
 )
@@ -1790,7 +1792,7 @@ nicurso/APRESENTACAO-TEX/figuras/Primeiros-Passos/Sin_discreto1_pouco.pdf
 pdfTeX warning: pdflatex (file C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/
 APRESENTACAO-TEX/figuras/Primeiros-Passos/Sin_discreto1_pouco.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
->] <./figuras/Primeiros-Passos/circuito1.pdf, id=331, 967.3937pt x 537.7571pt>
+>] <./figuras/Primeiros-Passos/circuito1.pdf, id=336, 967.3937pt x 537.7571pt>
 File: ./figuras/Primeiros-Passos/circuito1.pdf Graphic file (type pdf)
 
 <use ./figuras/Primeiros-Passos/circuito1.pdf>
@@ -1801,7 +1803,7 @@ Package pdftex.def Info: ./figuras/Primeiros-Passos/circuito1.pdf used on input
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/circuito1.pdf>]
-<./figuras/Primeiros-Passos/circuito1_Config_componentes.pdf, id=362, 1010.0728
+<./figuras/Primeiros-Passos/circuito1_Config_componentes.pdf, id=367, 1010.0728
 1pt x 312.98033pt>
 File: ./figuras/Primeiros-Passos/circuito1_Config_componentes.pdf Graphic file 
 (type pdf)
@@ -1814,7 +1816,7 @@ s.pdf used on input line 326.
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Prim
 eiros-Passos/circuito1_Config_componentes.pdf>]
-<./figuras/Primeiros-Passos/circuito1_grafico.pdf, id=379, 711.31892pt x 347.12
+<./figuras/Primeiros-Passos/circuito1_grafico.pdf, id=384, 711.31892pt x 347.12
 363pt>
 File: ./figuras/Primeiros-Passos/circuito1_grafico.pdf Graphic file (type pdf)
  <use ./figuras/Primeiros-Passos/circuito1_grafico.pdf>
@@ -1836,7 +1838,7 @@ Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
 
 
 ]
-<./figuras/Visualizacao-resultados/graficos-Selecao.pdf, id=574, 586.12677pt x 
+<./figuras/Visualizacao-resultados/graficos-Selecao.pdf, id=579, 586.12677pt x 
 341.43306pt>
 File: ./figuras/Visualizacao-resultados/graficos-Selecao.pdf Graphic file (type
  pdf)
@@ -1849,7 +1851,7 @@ Package pdftex.def Info: ./figuras/Visualizacao-resultados/graficos-Selecao.pdf
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Visu
 alizacao-resultados/graficos-Selecao.pdf>]
-<./figuras/Visualizacao-resultados/graficos-escalas.pdf, id=592, 850.73743pt x 
+<./figuras/Visualizacao-resultados/graficos-escalas.pdf, id=597, 850.73743pt x 
 352.81418pt>
 File: ./figuras/Visualizacao-resultados/graficos-escalas.pdf Graphic file (type
  pdf)
@@ -1864,7 +1866,7 @@ Package pdftex.def Info: ./figuras/Visualizacao-resultados/graficos-escalas.pdf
 alizacao-resultados/graficos-escalas.pdf>] [21
 
 ]
-<./figuras/Visualizacao-resultados/graficos-polygraph.pdf, id=615, 579.66562pt 
+<./figuras/Visualizacao-resultados/graficos-polygraph.pdf, id=620, 579.66562pt 
 x 289.08pt>
 File: ./figuras/Visualizacao-resultados/graficos-polygraph.pdf Graphic file (ty
 pe pdf)
@@ -1877,7 +1879,7 @@ df used on input line 114.
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Visu
 alizacao-resultados/graficos-polygraph.pdf>]
-<./figuras/Visualizacao-resultados/graficos-add-curvas.pdf, id=626, 734.745pt x
+<./figuras/Visualizacao-resultados/graficos-add-curvas.pdf, id=631, 734.745pt x
  310.15875pt>
 File: ./figuras/Visualizacao-resultados/graficos-add-curvas.pdf Graphic file (t
 ype pdf)
@@ -1890,7 +1892,7 @@ pdf used on input line 150.
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Visu
 alizacao-resultados/graficos-add-curvas.pdf>]
-<./figuras/Visualizacao-resultados/graficos-Control-panel.pdf, id=646, 494.3289
+<./figuras/Visualizacao-resultados/graficos-Control-panel.pdf, id=651, 494.3289
 5pt x 144.54pt>
 File: ./figuras/Visualizacao-resultados/graficos-Control-panel.pdf Graphic file
  (type pdf)
@@ -1914,7 +1916,7 @@ Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
 
 
 ]
-<./figuras/Segundo-Circuito/SIM2a.pdf, id=677, 1072.27383pt x 554.18983pt>
+<./figuras/Segundo-Circuito/SIM2a.pdf, id=682, 1072.27383pt x 554.18983pt>
 File: ./figuras/Segundo-Circuito/SIM2a.pdf Graphic file (type pdf)
 
 <use ./figuras/Segundo-Circuito/SIM2a.pdf>
@@ -1929,7 +1931,7 @@ Overfull \vbox (3.30453pt too high) detected at line 23
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Segu
 ndo-Circuito/SIM2a.pdf>]
-<./figuras/Segundo-Circuito/SIM2b.pdf, id=703, 1023.825pt x 337.45828pt>
+<./figuras/Segundo-Circuito/SIM2b.pdf, id=708, 1023.825pt x 337.45828pt>
 File: ./figuras/Segundo-Circuito/SIM2b.pdf Graphic file (type pdf)
 
 <use ./figuras/Segundo-Circuito/SIM2b.pdf>
@@ -1940,7 +1942,7 @@ e 43.
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Segu
 ndo-Circuito/SIM2b.pdf>]
-<./figuras/Segundo-Circuito/SIM2c.pdf, id=723, 1019.30806pt x 513.39516pt>
+<./figuras/Segundo-Circuito/SIM2c.pdf, id=728, 1019.30806pt x 513.39516pt>
 File: ./figuras/Segundo-Circuito/SIM2c.pdf Graphic file (type pdf)
 
 <use ./figuras/Segundo-Circuito/SIM2c.pdf>
@@ -1951,7 +1953,7 @@ e 64.
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Segu
 ndo-Circuito/SIM2c.pdf>]
-<./figuras/Segundo-Circuito/SIM2d.pdf, id=743, 535.0322pt x 269.58983pt>
+<./figuras/Segundo-Circuito/SIM2d.pdf, id=748, 535.0322pt x 269.58983pt>
 File: ./figuras/Segundo-Circuito/SIM2d.pdf Graphic file (type pdf)
 
 <use ./figuras/Segundo-Circuito/SIM2d.pdf>
@@ -1962,7 +1964,7 @@ e 85.
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Segu
 ndo-Circuito/SIM2d.pdf>]
-<./figuras/Segundo-Circuito/SIM2d-FFT.pdf, id=758, 577.15062pt x 371.30847pt>
+<./figuras/Segundo-Circuito/SIM2d-FFT.pdf, id=763, 577.15062pt x 371.30847pt>
 File: ./figuras/Segundo-Circuito/SIM2d-FFT.pdf Graphic file (type pdf)
 
 <use ./figuras/Segundo-Circuito/SIM2d-FFT.pdf>
@@ -1973,7 +1975,7 @@ Package pdftex.def Info: ./figuras/Segundo-Circuito/SIM2d-FFT.pdf used on input
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Segu
 ndo-Circuito/SIM2d-FFT.pdf>]
-<./figuras/Segundo-Circuito/SIM2e.pdf, id=1254, 591.46165pt x 254.65218pt>
+<./figuras/Segundo-Circuito/SIM2e.pdf, id=1259, 591.46165pt x 254.65218pt>
 File: ./figuras/Segundo-Circuito/SIM2e.pdf Graphic file (type pdf)
 
 <use ./figuras/Segundo-Circuito/SIM2e.pdf>
@@ -1983,19 +1985,77 @@ e 117.
  [31
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Segu
-ndo-Circuito/SIM2e.pdf>])
+ndo-Circuito/SIM2e.pdf>]
+<./figuras/Segundo-Circuito/maquina_CC_b.png, id=1293, 401.5pt x 303.1325pt>
+File: ./figuras/Segundo-Circuito/maquina_CC_b.png Graphic file (type png)
+
+<use ./figuras/Segundo-Circuito/maquina_CC_b.png>
+Package pdftex.def Info: ./figuras/Segundo-Circuito/maquina_CC_b.png used on in
+put line 150.
+(pdftex.def)             Requested size: 164.0598pt x 123.86884pt.
+
+<./figuras/Segundo-Circuito/SIMf_dc_machine.pdf, id=1294, 265.1215pt x 116.0957
+3pt>
+File: ./figuras/Segundo-Circuito/SIMf_dc_machine.pdf Graphic file (type pdf)
+ <use ./figuras/Segundo-Circuito/SIMf_dc_machine.pdf>
+Package pdftex.def Info: ./figuras/Segundo-Circuito/SIMf_dc_machine.pdf used on
+ input line 150.
+(pdftex.def)             Requested size: 246.09596pt x 107.76773pt.
+ [32
+
+ <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Segu
+ndo-Circuito/maquina_CC_b.png> <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso
+/APRESENTACAO-TEX/figuras/Segundo-Circuito/SIMf_dc_machine.pdf>]
+<./figuras/Segundo-Circuito/SIMf_dc_machine_excitation.pdf, id=1321, 150.30554p
+t x 139.5333pt>
+File: ./figuras/Segundo-Circuito/SIMf_dc_machine_excitation.pdf Graphic file (t
+ype pdf)
+
+<use ./figuras/Segundo-Circuito/SIMf_dc_machine_excitation.pdf>
+Package pdftex.def Info: ./figuras/Segundo-Circuito/SIMf_dc_machine_excitation.
+pdf used on input line 210.
+(pdftex.def)             Requested size: 183.49265pt x 170.34958pt.
+ [33
+
+ <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Segu
+ndo-Circuito/SIMf_dc_machine_excitation.pdf>]
+<./figuras/Segundo-Circuito/SEMf_maq_cc_pascad.pdf, id=1348, 297.37047pt x 170.
+24983pt>
+File: ./figuras/Segundo-Circuito/SEMf_maq_cc_pascad.pdf Graphic file (type pdf)
+
+ <use ./figuras/Segundo-Circuito/SEMf_maq_cc_pascad.pdf>
+Package pdftex.def Info: ./figuras/Segundo-Circuito/SEMf_maq_cc_pascad.pdf used
+ on input line 241.
+(pdftex.def)             Requested size: 246.09596pt x 140.89685pt.
+ [34
+
+ <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Segu
+ndo-Circuito/SEMf_maq_cc_pascad.pdf>] [35
+
+]
+<./figuras/Segundo-Circuito/SIM2f.pdf, id=1375, 693.55591pt x 236.93344pt>
+File: ./figuras/Segundo-Circuito/SIM2f.pdf Graphic file (type pdf)
+
+<use ./figuras/Segundo-Circuito/SIM2f.pdf>
+Package pdftex.def Info: ./figuras/Segundo-Circuito/SIM2f.pdf used on input lin
+e 304.
+(pdftex.def)             Requested size: 388.56725pt x 132.74689pt.
+ [36
+
+ <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Segu
+ndo-Circuito/SIM2f.pdf>])
 (C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\Minicurso-Exp
 ortando-Dados.tex
 File: ./logos/fundo_tese.png Graphic file (type png)
  <use ./logos/fundo_tese.png>
 Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
 (pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
- [32
+ [37
 
 
 
 ]
-<./figuras/Exportacao/ex_pscadfig.pdf, id=1294, 589.3277pt x 281.68231pt>
+<./figuras/Exportacao/ex_pscadfig.pdf, id=1443, 589.3277pt x 281.68231pt>
 File: ./figuras/Exportacao/ex_pscadfig.pdf Graphic file (type pdf)
 
 <use ./figuras/Exportacao/ex_pscadfig.pdf>
@@ -2003,39 +2063,39 @@ Package pdftex.def Info: ./figuras/Exportacao/ex_pscadfig.pdf used on input lin
 e 36.
 (pdftex.def)             Requested size: 194.28362pt x 92.86089pt.
 
-<./figuras/Exportacao/ex_matlab.pdf, id=1295, 973.6375pt x 461.725pt>
+<./figuras/Exportacao/ex_matlab.pdf, id=1444, 973.6375pt x 461.725pt>
 File: ./figuras/Exportacao/ex_matlab.pdf Graphic file (type pdf)
 
 <use ./figuras/Exportacao/ex_matlab.pdf>
 Package pdftex.def Info: ./figuras/Exportacao/ex_matlab.pdf used on input line 
 36.
 (pdftex.def)             Requested size: 194.28362pt x 92.132pt.
- [33
+ [38
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Expo
 rtacao/ex_pscadfig.pdf> <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESE
 NTACAO-TEX/figuras/Exportacao/ex_matlab.pdf>]
-<./figuras/Exportacao/ex_indireto.pdf, id=1514, 973.6375pt x 461.725pt>
+<./figuras/Exportacao/ex_indireto.pdf, id=1663, 973.6375pt x 461.725pt>
 File: ./figuras/Exportacao/ex_indireto.pdf Graphic file (type pdf)
 
 <use ./figuras/Exportacao/ex_indireto.pdf>
 Package pdftex.def Info: ./figuras/Exportacao/ex_indireto.pdf used on input lin
 e 58.
 (pdftex.def)             Requested size: 259.04922pt x 122.84267pt.
- [34
+ [39
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Expo
 rtacao/ex_indireto.pdf>]
-<./figuras/Exportacao/ex_processamento.pdf, id=1588, 1280.37404pt x 609.8949pt>
+<./figuras/Exportacao/ex_processamento.pdf, id=1737, 1280.37404pt x 609.8949pt>
 File: ./figuras/Exportacao/ex_processamento.pdf Graphic file (type pdf)
 <use ./figuras/Exportacao/ex_processamento.pdf>
 Package pdftex.def Info: ./figuras/Exportacao/ex_processamento.pdf used on inpu
 t line 82.
 (pdftex.def)             Requested size: 280.63116pt x 133.67474pt.
- [35
+ [40
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Expo
-rtacao/ex_processamento.pdf>] <./figuras/Exportacao/Export1.pdf, id=1603, 957.5
+rtacao/ex_processamento.pdf>] <./figuras/Exportacao/Export1.pdf, id=1752, 957.5
 7744pt x 398.99063pt>
 File: ./figuras/Exportacao/Export1.pdf Graphic file (type pdf)
 
@@ -2043,44 +2103,44 @@ File: ./figuras/Exportacao/Export1.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figuras/Exportacao/Export1.pdf used on input line 10
 0.
 (pdftex.def)             Requested size: 410.15578pt x 170.89902pt.
- [36
+ [41
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Expo
 rtacao/Export1.pdf>]
-<./figuras/Exportacao/Export1-arquivo.pdf, id=1614, 545.78906pt x 188.20313pt>
+<./figuras/Exportacao/Export1-arquivo.pdf, id=1763, 545.78906pt x 188.20313pt>
 File: ./figuras/Exportacao/Export1-arquivo.pdf Graphic file (type pdf)
 
 <use ./figuras/Exportacao/Export1-arquivo.pdf>
 Package pdftex.def Info: ./figuras/Exportacao/Export1-arquivo.pdf used on input
  line 118.
 (pdftex.def)             Requested size: 410.15578pt x 141.43341pt.
- [37
+ [42
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Expo
 rtacao/Export1-arquivo.pdf>]
-<./figuras/Exportacao/Export2.pdf, id=1635, 285.3159pt x 380.17032pt>
+<./figuras/Exportacao/Export2.pdf, id=1783, 285.3159pt x 380.17032pt>
 File: ./figuras/Exportacao/Export2.pdf Graphic file (type pdf)
 
 <use ./figuras/Exportacao/Export2.pdf>
 Package pdftex.def Info: ./figuras/Exportacao/Export2.pdf used on input line 15
 4.
 (pdftex.def)             Requested size: 151.10985pt x 201.34428pt.
- [38
+ [43
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Expo
 rtacao/Export2.pdf>]
-<./figuras/Exportacao/Export2-files.pdf, id=1649, 279.88231pt x 74.14516pt>
+<./figuras/Exportacao/Export2-files.pdf, id=1798, 279.88231pt x 74.14516pt>
 File: ./figuras/Exportacao/Export2-files.pdf Graphic file (type pdf)
 
 <use ./figuras/Exportacao/Export2-files.pdf>
 Package pdftex.def Info: ./figuras/Exportacao/Export2-files.pdf used on input l
 ine 189.
 (pdftex.def)             Requested size: 151.10985pt x 40.03212pt.
- [39
+ [44
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Expo
 rtacao/Export2-files.pdf>]
-<./figuras/Exportacao/Export2-map.pdf, id=1662, 495.35066pt x 524.71031pt>
+<./figuras/Exportacao/Export2-map.pdf, id=1811, 495.35066pt x 524.71031pt>
 File: ./figuras/Exportacao/Export2-map.pdf Graphic file (type pdf)
 
 <use ./figuras/Exportacao/Export2-map.pdf>
@@ -2088,14 +2148,14 @@ Package pdftex.def Info: ./figuras/Exportacao/Export2-map.pdf used on input lin
 e 218.
 (pdftex.def)             Requested size: 172.69838pt x 182.93077pt.
 
-<./figuras/Exportacao/Export2-out.pdf, id=1663, 495.07794pt x 523.53073pt>
+<./figuras/Exportacao/Export2-out.pdf, id=1812, 495.07794pt x 523.53073pt>
 File: ./figuras/Exportacao/Export2-out.pdf Graphic file (type pdf)
 
 <use ./figuras/Exportacao/Export2-out.pdf>
 Package pdftex.def Info: ./figuras/Exportacao/Export2-out.pdf used on input lin
 e 218.
 (pdftex.def)             Requested size: 172.69838pt x 182.62338pt.
- [40
+ [45
 
  <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/figuras/Expo
 rtacao/Export2-map.pdf> <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESE
@@ -2105,62 +2165,76 @@ pdfTeX warning: pdflatex (file C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/
 APRESENTACAO-TEX/figuras/Exportacao/Export2-out.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
 >])
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\Minicurso-Aut
+omacao-Simulacao.tex
+File: ./logos/fundo_tese.png Graphic file (type png)
+ <use ./logos/fundo_tese.png>
+Package pdftex.def Info: ./logos/fundo_tese.png used on input line 1.
+(pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
+ [46
+
+
+
+] [47
+
+])
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-LaTeX Font Info:    Try loading font information for U+mvs on input line 113.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\marvosym\umvs.fd")
-<./symbols/orcid.pdf, id=1678, 25.09375pt x 25.09375pt>
+LaTeX Font Info:    Try loading font information for U+mvs on input line 117.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\marvosym\umvs.fd")
+<./symbols/orcid.pdf, id=1840, 25.09375pt x 25.09375pt>
 File: ./symbols/orcid.pdf Graphic file (type pdf)
 
 <use ./symbols/orcid.pdf>
-Package pdftex.def Info: ./symbols/orcid.pdf used on input line 113.
+Package pdftex.def Info: ./symbols/orcid.pdf used on input line 117.
 (pdftex.def)             Requested size: 15.11263pt x 15.11302pt.
 
-<./symbols/researchgate.pdf, id=1680, 25.09375pt x 25.09375pt>
+<./symbols/researchgate.pdf, id=1842, 25.09375pt x 25.09375pt>
 File: ./symbols/researchgate.pdf Graphic file (type pdf)
 
 <use ./symbols/researchgate.pdf>
-Package pdftex.def Info: ./symbols/researchgate.pdf used on input line 113.
+Package pdftex.def Info: ./symbols/researchgate.pdf used on input line 117.
 (pdftex.def)             Requested size: 15.11263pt x 15.11302pt.
 
-<./symbols/lattes.pdf, id=1682, 714.67pt x 475.7775pt>
+<./symbols/lattes.pdf, id=1844, 714.67pt x 475.7775pt>
 File: ./symbols/lattes.pdf Graphic file (type pdf)
 
 <use ./symbols/lattes.pdf>
-Package pdftex.def Info: ./symbols/lattes.pdf used on input line 113.
+Package pdftex.def Info: ./symbols/lattes.pdf used on input line 117.
 (pdftex.def)             Requested size: 21.58853pt x 14.36708pt.
 
-<./symbols/GoogleScholar25x25.pdf, id=1684, 25.09375pt x 25.09375pt>
+<./symbols/GoogleScholar25x25.pdf, id=1846, 25.09375pt x 25.09375pt>
 File: ./symbols/GoogleScholar25x25.pdf Graphic file (type pdf)
 
 <use ./symbols/GoogleScholar25x25.pdf>
 Package pdftex.def Info: ./symbols/GoogleScholar25x25.pdf used on input line 11
-3.
+7.
 (pdftex.def)             Requested size: 15.11263pt x 15.11302pt.
 
-<./symbols/github.png, id=1686, 12.848pt x 12.848pt>
+<./symbols/github.png, id=1848, 12.848pt x 12.848pt>
 File: ./symbols/github.png Graphic file (type png)
 
 <use ./symbols/github.png>
-Package pdftex.def Info: ./symbols/github.png used on input line 113.
+Package pdftex.def Info: ./symbols/github.png used on input line 117.
 (pdftex.def)             Requested size: 15.11263pt x 15.11285pt.
- <./symbols/site2.png, id=1688, 513.92pt x 513.92pt>
+ <./symbols/site2.png, id=1850, 513.92pt x 513.92pt>
 File: ./symbols/site2.png Graphic file (type png)
 
 <use ./symbols/site2.png>
-Package pdftex.def Info: ./symbols/site2.png used on input line 113.
+Package pdftex.def Info: ./symbols/site2.png used on input line 117.
 (pdftex.def)             Requested size: 15.11263pt x 15.1111pt.
 File: ./logos/logomarca-uerj.png Graphic file (type png)
  <use ./logos/logomarca-uerj.png>
-Package pdftex.def Info: ./logos/logomarca-uerj.png used on input line 113.
+Package pdftex.def Info: ./logos/logomarca-uerj.png used on input line 117.
 (pdftex.def)             Requested size: 64.759pt x 64.75917pt.
 File: ./logos/fundo_tese.png Graphic file (type png)
 
 <use ./logos/fundo_tese.png>
-Package pdftex.def Info: ./logos/fundo_tese.png used on input line 113.
+Package pdftex.def Info: ./logos/fundo_tese.png used on input line 117.
 (pdftex.def)             Requested size: 455.25195pt x 256.07921pt.
- [41
+ [48
 
 
 
@@ -2186,8 +2260,8 @@ with page group included in a single page
 > <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/symbols/git
 hub.png> <C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO-TEX/symb
 ols/site2.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
 
 ("C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Slides
  - Minicurso PSCAD.aux"
@@ -2200,9 +2274,11 @@ so-Visualizacao-resultados.aux)
 (C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
 so-Segundo-Circuito.aux)
 (C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
-so-Exportando-Dados.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
+so-Exportando-Dados.aux)
+(C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\APRESENTACAO-TEX\build\Minicur
+so-Automacao-Simulacao.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `Slides*-*Minicurso*PSCAD.out' has not change
 d.
 (rerunfilecheck)             Checksum: <no file>.
@@ -2211,13 +2287,16 @@ d.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
- 31274 strings out of 493921
- 676979 string characters out of 3147282
- 830048 words of memory out of 3000000
- 33717 multiletter control sequences out of 15000+200000
+ 31351 strings out of 493921
+ 679426 string characters out of 3147282
+ 830149 words of memory out of 3000000
+ 33767 multiletter control sequences out of 15000+200000
  13828 words of font info for 52 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  59i,16n,71p,973b,892s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2229,12 +2308,12 @@ ts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmssi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-ssi17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/marvosym/marvosym.pfb
->
+ssi17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/marvosym/marvosym.pfb>
 Output written on "C:/Users/cleit/Documents/GitHub/PSCAD-Minicurso/APRESENTACAO
--TEX/build/Slides - Minicurso PSCAD.pdf" (41 pages, 2051218 bytes).
+-TEX/build/Slides - Minicurso PSCAD.pdf" (48 pages, 2434672 bytes).
 PDF statistics:
- 1771 PDF objects out of 2073 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
- 341 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1939 PDF objects out of 2073 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 374 words of extra memory for PDF output out of 10000 (max. 10000000)
 

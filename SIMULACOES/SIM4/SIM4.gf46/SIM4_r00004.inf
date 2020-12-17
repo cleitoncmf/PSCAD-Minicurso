@@ -1,0 +1,3 @@
+PGB(1)         Output  Desc="Ia:1"  Group="Main"  Max=2.0  Min=-2.0  Units=""
+PGB(2)         Output  Desc="Ia:2"  Group="Main"  Max=2.0  Min=-2.0  Units=""
+PGB(3)         Output  Desc="Ia:3"  Group="Main"  Max=2.0  Min=-2.0  Units=""

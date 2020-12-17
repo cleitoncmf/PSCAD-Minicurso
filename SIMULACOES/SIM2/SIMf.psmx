@@ -1,0 +1,35 @@
+<Meta name="SIMf">
+  <messagelist>
+    <message status="normal" label="build" scope="SIMf" groupid="100006"><![CDATA[Generating 'C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM2\SIMf.gf46\SIMf.map'.]]></message>
+    <message status="normal" label="build" scope="SIMf" groupid="100014"><![CDATA[The total number of live nodes: 2]]></message>
+    <message status="normal" label="build" scope="SIMf" groupid="100001"><![CDATA[Non-professional licenses are limited to a single, electrical subsystem. Subsystem splitting has been internally disabled for this simulation.]]></message>
+    <message status="normal" label="build" scope="SIMf" groupid="400000"><![CDATA[Time for Compile: 0ms  Make: 16ms]]></message>
+    <message status="normal" label="build" scope="SIMf" groupid="100015"><![CDATA[Will execute (1): call C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat]]></message>
+    <message status="normal" label="build" scope="SIMf" groupid="100015"><![CDATA[Will execute (1): call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat"]]></message>
+    <message status="normal" label="build" scope="SIMf" groupid="100015"><![CDATA[Will execute (2): make -f SIMf.mak]]></message>
+    <message status="normal" label="build" scope="SIMf" groupid="100015"><![CDATA[Will execute (2): "C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM2\SIMf.gf46\SIMf.mak.bat"]]></message>
+    <message status="normal" label="build" scope="SIMf" groupid="100005"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" scope="SIMf" groupid="0"><![CDATA[C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM2\SIMf.gf46>call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat" ]]></message>
+    <message status="normal" label="build" scope="SIMf" groupid="100012"><![CDATA[Linking objects and libraries into binary 'SIMf.exe']]></message>
+    <message status="normal" label="build" scope="SIMf" groupid="400000"><![CDATA[Solve Time = 15ms]]></message>
+  </messagelist>
+  <List classid="Settings" />
+  <ViewContext>
+    <Window defn="SIMf:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomlevel="6" scrollx="0" scrolly="90" />
+  </List>
+  <Output device="EMTDC" version="2010" date="2020/12/16" time="17:04:53.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="4000.0" end="200000" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):Ia" index="0" id="1800250950:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Ea" index="1" id="329375391:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Te" index="2" id="1246246155:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):w" index="3" id="1981841835:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>

@@ -4,4 +4,5 @@
 \beamer@sectionintoc {2}{Primeiros Passos no PSCAD}{4}{0}{2}
 \beamer@sectionintoc {3}{Visualiza\IeC {\c c}\IeC {\~a}o de Resultados: Alguns Detalhes}{18}{0}{3}
 \beamer@sectionintoc {4}{Circuitos Simples para Aprender Usar Outros Blocos}{25}{0}{4}
-\beamer@sectionintoc {5}{Exportando Dados}{32}{0}{5}
+\beamer@sectionintoc {5}{Exportando Dados}{37}{0}{5}
+\beamer@sectionintoc {6}{Automa\IeC {\c c}\IeC {\~a}o de Simula\IeC {\c c}\IeC {\~o}es}{46}{0}{6}
