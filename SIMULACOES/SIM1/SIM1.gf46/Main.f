@@ -85,7 +85,7 @@
 
       ISTOF     = NSTOF
       NSTOF     = NSTOF + 6
-      NPGB      = NPGB + 6
+      NPGB      = NPGB + 9
       INODE     = NNODE + 2
       NNODE     = NNODE + 8
       IBRCH     = NBRCH(SS)
@@ -238,7 +238,7 @@
 ! Increment global storage indices
 
       IPGB      = NPGB
-      NPGB      = NPGB + 6
+      NPGB      = NPGB + 9
       INODE     = NNODE + 2
       NNODE     = NNODE + 8
       IBRCH     = NBRCH(SS)
@@ -303,6 +303,12 @@
 
       DO IVD1_1 = 1, 3
          PGB(IPGB+4+IVD1_1-1) = Ea(IVD1_1)
+      ENDDO
+
+! 50:[pgb] Output Channel 'Ea'
+
+      DO IVD1_1 = 1, 3
+         PGB(IPGB+7+IVD1_1-1) = Ea(IVD1_1)
       ENDDO
 
 !---------------------------------------
@@ -496,6 +502,8 @@
 ! 30:[pgb] Output Channel 'Ia'
 
 ! 40:[pgb] Output Channel 'Ea'
+
+! 50:[pgb] Output Channel 'Ea'
 
       RETURN
       END

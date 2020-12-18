@@ -91,7 +91,7 @@
 \headcommand {\beamer@framepages {39}{39}}
 \headcommand {\slideentry {4}{0}{40}{40/40}{}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\sectionentry {5}{Exportando Dados}{41}{Exportando Dados}{0}}
+\headcommand {\sectionentry {5}{Mais Simula\IeC {\c c}\IeC {\~o}es}{41}{Mais Simula\IeC {\c c}\IeC {\~o}es}{0}}
 \headcommand {\beamer@sectionpages {29}{40}}
 \headcommand {\beamer@subsectionpages {29}{40}}
 \headcommand {\slideentry {5}{0}{41}{41/41}{}{0}}
@@ -102,19 +102,19 @@
 \headcommand {\beamer@framepages {43}{43}}
 \headcommand {\slideentry {5}{0}{44}{44/44}{}{0}}
 \headcommand {\beamer@framepages {44}{44}}
-\headcommand {\slideentry {5}{0}{45}{45/45}{}{0}}
+\headcommand {\sectionentry {6}{Exportando Dados}{45}{Exportando Dados}{0}}
+\headcommand {\beamer@sectionpages {41}{44}}
+\headcommand {\beamer@subsectionpages {41}{44}}
+\headcommand {\slideentry {6}{0}{45}{45/45}{}{0}}
 \headcommand {\beamer@framepages {45}{45}}
-\headcommand {\slideentry {5}{0}{46}{46/46}{}{0}}
+\headcommand {\slideentry {6}{0}{46}{46/46}{}{0}}
 \headcommand {\beamer@framepages {46}{46}}
-\headcommand {\slideentry {5}{0}{47}{47/47}{}{0}}
+\headcommand {\slideentry {6}{0}{47}{47/47}{}{0}}
 \headcommand {\beamer@framepages {47}{47}}
-\headcommand {\slideentry {5}{0}{48}{48/48}{}{0}}
+\headcommand {\slideentry {6}{0}{48}{48/48}{}{0}}
 \headcommand {\beamer@framepages {48}{48}}
-\headcommand {\slideentry {5}{0}{49}{49/49}{}{0}}
+\headcommand {\slideentry {6}{0}{49}{49/49}{}{0}}
 \headcommand {\beamer@framepages {49}{49}}
-\headcommand {\sectionentry {6}{Automa\IeC {\c c}\IeC {\~a}o de Simula\IeC {\c c}\IeC {\~o}es}{50}{Automa\IeC {\c c}\IeC {\~a}o de Simula\IeC {\c c}\IeC {\~o}es}{0}}
-\headcommand {\beamer@sectionpages {41}{49}}
-\headcommand {\beamer@subsectionpages {41}{49}}
 \headcommand {\slideentry {6}{0}{50}{50/50}{}{0}}
 \headcommand {\beamer@framepages {50}{50}}
 \headcommand {\slideentry {6}{0}{51}{51/51}{}{0}}
@@ -123,13 +123,13 @@
 \headcommand {\beamer@framepages {52}{52}}
 \headcommand {\slideentry {6}{0}{53}{53/53}{}{0}}
 \headcommand {\beamer@framepages {53}{53}}
-\headcommand {\slideentry {6}{0}{54}{54/54}{}{0}}
+\headcommand {\sectionentry {7}{Automa\IeC {\c c}\IeC {\~a}o de Simula\IeC {\c c}\IeC {\~o}es}{54}{Automa\IeC {\c c}\IeC {\~a}o de Simula\IeC {\c c}\IeC {\~o}es}{0}}
+\headcommand {\beamer@sectionpages {45}{53}}
+\headcommand {\beamer@subsectionpages {45}{53}}
+\headcommand {\slideentry {7}{0}{54}{54/54}{}{0}}
 \headcommand {\beamer@framepages {54}{54}}
-\headcommand {\slideentry {6}{0}{55}{55/55}{}{0}}
+\headcommand {\slideentry {7}{0}{55}{55/55}{}{0}}
 \headcommand {\beamer@framepages {55}{55}}
-\headcommand {\sectionentry {7}{Cria\IeC {\c c}\IeC {\~a}o de Componentes e Bibliotecas}{56}{Cria\IeC {\c c}\IeC {\~a}o de Componentes e Bibliotecas}{0}}
-\headcommand {\beamer@sectionpages {50}{55}}
-\headcommand {\beamer@subsectionpages {50}{55}}
 \headcommand {\slideentry {7}{0}{56}{56/56}{}{0}}
 \headcommand {\beamer@framepages {56}{56}}
 \headcommand {\slideentry {7}{0}{57}{57/57}{}{0}}
@@ -138,22 +138,43 @@
 \headcommand {\beamer@framepages {58}{58}}
 \headcommand {\slideentry {7}{0}{59}{59/59}{}{0}}
 \headcommand {\beamer@framepages {59}{59}}
-\headcommand {\slideentry {7}{0}{60}{60/60}{}{0}}
+\headcommand {\sectionentry {8}{Cria\IeC {\c c}\IeC {\~a}o de Componentes e Bibliotecas}{60}{Cria\IeC {\c c}\IeC {\~a}o de Componentes e Bibliotecas}{0}}
+\headcommand {\beamer@sectionpages {54}{59}}
+\headcommand {\beamer@subsectionpages {54}{59}}
+\headcommand {\slideentry {8}{0}{60}{60/60}{}{0}}
 \headcommand {\beamer@framepages {60}{60}}
-\headcommand {\slideentry {7}{0}{61}{61/61}{}{0}}
+\headcommand {\slideentry {8}{0}{61}{61/61}{}{0}}
 \headcommand {\beamer@framepages {61}{61}}
-\headcommand {\slideentry {7}{0}{62}{62/62}{}{0}}
+\headcommand {\slideentry {8}{0}{62}{62/62}{}{0}}
 \headcommand {\beamer@framepages {62}{62}}
-\headcommand {\slideentry {7}{0}{63}{63/63}{}{0}}
+\headcommand {\slideentry {8}{0}{63}{63/63}{}{0}}
 \headcommand {\beamer@framepages {63}{63}}
-\headcommand {\beamer@partpages {1}{63}}
-\headcommand {\beamer@subsectionpages {56}{63}}
-\headcommand {\beamer@sectionpages {56}{63}}
-\headcommand {\beamer@documentpages {63}}
-\headcommand {\def \inserttotalframenumber {63}}
-\headcommand {\partentry {}{1}}
-\headcommand {\beamer@partpages {1}{63}}
-\headcommand {\beamer@sectionpages {56}{63}}
-\headcommand {\beamer@subsectionpages {56}{63}}
-\headcommand {\slideentry {7}{0}{64}{64/64}{}{1}}
+\headcommand {\slideentry {8}{0}{64}{64/64}{}{0}}
 \headcommand {\beamer@framepages {64}{64}}
+\headcommand {\slideentry {8}{0}{65}{65/65}{}{0}}
+\headcommand {\beamer@framepages {65}{65}}
+\headcommand {\slideentry {8}{0}{66}{66/66}{}{0}}
+\headcommand {\beamer@framepages {66}{66}}
+\headcommand {\slideentry {8}{0}{67}{67/67}{}{0}}
+\headcommand {\beamer@framepages {67}{67}}
+\headcommand {\slideentry {8}{0}{68}{68/68}{}{0}}
+\headcommand {\beamer@framepages {68}{68}}
+\headcommand {\slideentry {8}{0}{69}{69/69}{}{0}}
+\headcommand {\beamer@framepages {69}{69}}
+\headcommand {\slideentry {8}{0}{70}{70/70}{}{0}}
+\headcommand {\beamer@framepages {70}{70}}
+\headcommand {\slideentry {8}{0}{71}{71/71}{}{0}}
+\headcommand {\beamer@framepages {71}{71}}
+\headcommand {\slideentry {8}{0}{72}{72/72}{}{0}}
+\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\beamer@partpages {1}{72}}
+\headcommand {\beamer@subsectionpages {60}{72}}
+\headcommand {\beamer@sectionpages {60}{72}}
+\headcommand {\beamer@documentpages {72}}
+\headcommand {\def \inserttotalframenumber {72}}
+\headcommand {\partentry {}{1}}
+\headcommand {\beamer@partpages {1}{72}}
+\headcommand {\beamer@sectionpages {60}{72}}
+\headcommand {\beamer@subsectionpages {60}{72}}
+\headcommand {\slideentry {8}{0}{73}{73/73}{}{1}}
+\headcommand {\beamer@framepages {73}{73}}

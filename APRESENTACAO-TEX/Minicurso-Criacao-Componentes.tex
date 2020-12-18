@@ -109,37 +109,108 @@
 
 
 
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}{Encapsulando Circuitos: Adicionando Parâmetros Configuráveis}
-%\centering
-%
-%
-%\includegraphics[width=0.75\linewidth]{./figuras/Componentes/parametro}
-%
-%
-%\end{frame}
-%
-%
-%
-%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}{Tem como usar programação (como definimos) no PSCAD?}
-%\centering
-%
-%
-%
-%\end{frame}
-%
-%
-%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Programando componentes com FORTRAN}
+\centering
+
+\begin{columns}
+
+
+\column{0.5\linewidth}
+\begin{itemize}
+\item Criar um bloco seguindo os passos anteriores
+\vspace*{1cm}
+\item Demarcar a opção {\it Module}
+\vspace*{1cm}
+\item Programar o bloco na aba script
+\end{itemize}
+
+\column{0.5\linewidth}
+\includegraphics[width=0.75\linewidth]{./figuras/Componentes/componenteFortran}
+
+\end{columns}
+
+
+
+
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Programando componentes com FORTRAN: Componente A}
+\centering
+
+Componente que soma uma constante $K$ a todos os elementos de um vetor. Ou seja:
+\vspace*{0.5cm}
+
+\begin{equation*}
+\mathbf{y}[n] = \mathbf{x}[n] + K 
+\end{equation*}
+\vspace*{0.5cm}
+
+$\mathbf{y}$ - Vetor com $N$ posições (saída do bloco)
+\vspace*{0.5cm}
+
+$\mathbf{x}$ - Vetor com $N$ posições (entrada do bloco)
+\vspace*{0.5cm}
+
+$K$ - Constante
+
+
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Programando componentes com FORTRAN: Componente A}
+\centering
+
+\includegraphics[width=0.75\linewidth]{./figuras/Componentes/FortranA_parameter}
+
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Programando componentes com FORTRAN: Componente A}
+\centering
+
+\includegraphics[width=0.75\linewidth]{./figuras/Componentes/FortranA_script}
+
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Programando componentes com FORTRAN: Componente B}
+\centering
+
+\includegraphics[width=0.45\linewidth]{./figuras/Componentes/FortranB_script}
+
+\end{frame}
+
 
 
 

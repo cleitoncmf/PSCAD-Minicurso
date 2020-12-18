@@ -47,7 +47,11 @@
       INTEGER  Bus1(3)
 
 ! Control Signals
-      REAL     Pb, Pc, RT_1(2)
+      REAL     Pb, Pc, RT_1(2), RT_2(7), RT_3
+      REAL     RT_4, RT_5, RT_6(7), RT_7(7), RT_8
+      REAL     RT_9, RT_10, RT_11(7), RT_12(7)
+      REAL     RT_13(7), RT_14, RT_15, RT_16
+      REAL     RT_17, RT_18(4), Vc(3)
 
 ! Internal Variables
       REAL     RVD1_1, RVD1_2, RVD1_3, RVD1_4
@@ -84,8 +88,8 @@
 ! Increment global storage indices
 
       ISTOF     = NSTOF
-      NSTOF     = NSTOF + 4
-      NPGB      = NPGB + 2
+      NSTOF     = NSTOF + 63
+      NPGB      = NPGB + 6
       INODE     = NNODE + 2
       NNODE     = NNODE + 17
       IBRCH     = NBRCH(SS)
@@ -99,10 +103,40 @@
 
       Pb       = STOF(ISTOF + 1)
       Pc       = STOF(ISTOF + 2)
+      RT_3     = STOF(ISTOF + 12)
+      RT_4     = STOF(ISTOF + 13)
+      RT_5     = STOF(ISTOF + 14)
+      RT_8     = STOF(ISTOF + 29)
+      RT_9     = STOF(ISTOF + 30)
+      RT_10    = STOF(ISTOF + 31)
+      RT_14    = STOF(ISTOF + 53)
+      RT_15    = STOF(ISTOF + 54)
+      RT_16    = STOF(ISTOF + 55)
+      RT_17    = STOF(ISTOF + 56)
 
 ! Array (1:2) quantities...
       DO IT_0 = 1,2
          RT_1(IT_0) = STOF(ISTOF + 2 + IT_0)
+      END DO
+
+! Array (1:3) quantities...
+      DO IT_0 = 1,3
+         Vc(IT_0) = STOF(ISTOF + 60 + IT_0)
+      END DO
+
+! Array (1:4) quantities...
+      DO IT_0 = 1,4
+         RT_18(IT_0) = STOF(ISTOF + 56 + IT_0)
+      END DO
+
+! Array (1:7) quantities...
+      DO IT_0 = 1,7
+         RT_2(IT_0) = STOF(ISTOF + 4 + IT_0)
+         RT_6(IT_0) = STOF(ISTOF + 14 + IT_0)
+         RT_7(IT_0) = STOF(ISTOF + 21 + IT_0)
+         RT_11(IT_0) = STOF(ISTOF + 31 + IT_0)
+         RT_12(IT_0) = STOF(ISTOF + 38 + IT_0)
+         RT_13(IT_0) = STOF(ISTOF + 45 + IT_0)
       END DO
 
 
@@ -155,10 +189,40 @@
 
       STOF(ISTOF + 1) = Pb
       STOF(ISTOF + 2) = Pc
+      STOF(ISTOF + 12) = RT_3
+      STOF(ISTOF + 13) = RT_4
+      STOF(ISTOF + 14) = RT_5
+      STOF(ISTOF + 29) = RT_8
+      STOF(ISTOF + 30) = RT_9
+      STOF(ISTOF + 31) = RT_10
+      STOF(ISTOF + 53) = RT_14
+      STOF(ISTOF + 54) = RT_15
+      STOF(ISTOF + 55) = RT_16
+      STOF(ISTOF + 56) = RT_17
 
 ! Array (1:2) quantities...
       DO IT_0 = 1,2
          STOF(ISTOF + 2 + IT_0) = RT_1(IT_0)
+      END DO
+
+! Array (1:3) quantities...
+      DO IT_0 = 1,3
+         STOF(ISTOF + 60 + IT_0) = Vc(IT_0)
+      END DO
+
+! Array (1:4) quantities...
+      DO IT_0 = 1,4
+         STOF(ISTOF + 56 + IT_0) = RT_18(IT_0)
+      END DO
+
+! Array (1:7) quantities...
+      DO IT_0 = 1,7
+         STOF(ISTOF + 4 + IT_0) = RT_2(IT_0)
+         STOF(ISTOF + 14 + IT_0) = RT_6(IT_0)
+         STOF(ISTOF + 21 + IT_0) = RT_7(IT_0)
+         STOF(ISTOF + 31 + IT_0) = RT_11(IT_0)
+         STOF(ISTOF + 38 + IT_0) = RT_12(IT_0)
+         STOF(ISTOF + 45 + IT_0) = RT_13(IT_0)
       END DO
 
 
@@ -201,6 +265,8 @@
 !---------------------------------------
 
       REAL    P3PH3         ! 
+      REAL    EMTDC_VVDC    ! 
+!     SUBR    FTN180        ! FFT Calculation
 
 !---------------------------------------
 ! Variable Declarations
@@ -208,9 +274,14 @@
 
 
 ! Electrical Node Indices
+      INTEGER  NT_2(3)
 
 ! Control Signals
-      REAL     Pb, Pc, RT_1(2)
+      REAL     Pb, Pc, RT_1(2), RT_2(7), RT_3
+      REAL     RT_4, RT_5, RT_6(7), RT_7(7), RT_8
+      REAL     RT_9, RT_10, RT_11(7), RT_12(7)
+      REAL     RT_13(7), RT_14, RT_15, RT_16
+      REAL     RT_17, RT_18(4), Vc(3)
 
 ! Internal Variables
       INTEGER  IVD1_1
@@ -248,7 +319,7 @@
 ! Increment global storage indices
 
       IPGB      = NPGB
-      NPGB      = NPGB + 2
+      NPGB      = NPGB + 6
       INODE     = NNODE + 2
       NNODE     = NNODE + 17
       IBRCH     = NBRCH(SS)
@@ -262,10 +333,40 @@
 
       Pb       = STOF(ISTOF + 1)
       Pc       = STOF(ISTOF + 2)
+      RT_3     = STOF(ISTOF + 12)
+      RT_4     = STOF(ISTOF + 13)
+      RT_5     = STOF(ISTOF + 14)
+      RT_8     = STOF(ISTOF + 29)
+      RT_9     = STOF(ISTOF + 30)
+      RT_10    = STOF(ISTOF + 31)
+      RT_14    = STOF(ISTOF + 53)
+      RT_15    = STOF(ISTOF + 54)
+      RT_16    = STOF(ISTOF + 55)
+      RT_17    = STOF(ISTOF + 56)
 
 ! Array (1:2) quantities...
       DO IT_0 = 1,2
          RT_1(IT_0) = STOF(ISTOF + 2 + IT_0)
+      END DO
+
+! Array (1:3) quantities...
+      DO IT_0 = 1,3
+         Vc(IT_0) = STOF(ISTOF + 60 + IT_0)
+      END DO
+
+! Array (1:4) quantities...
+      DO IT_0 = 1,4
+         RT_18(IT_0) = STOF(ISTOF + 56 + IT_0)
+      END DO
+
+! Array (1:7) quantities...
+      DO IT_0 = 1,7
+         RT_2(IT_0) = STOF(ISTOF + 4 + IT_0)
+         RT_6(IT_0) = STOF(ISTOF + 14 + IT_0)
+         RT_7(IT_0) = STOF(ISTOF + 21 + IT_0)
+         RT_11(IT_0) = STOF(ISTOF + 31 + IT_0)
+         RT_12(IT_0) = STOF(ISTOF + 38 + IT_0)
+         RT_13(IT_0) = STOF(ISTOF + 45 + IT_0)
       END DO
 
 
@@ -273,6 +374,11 @@
 ! Electrical Node Lookup
 !---------------------------------------
 
+
+! Array (1:3) quantities...
+      DO IT_0 = 1,3
+         NT_2(IT_0) = NODE(INODE + 12 + IT_0)
+      END DO
 
 !---------------------------------------
 ! Configuration of Models
@@ -299,6 +405,9 @@
 ! 20:[multimeter] Multimeter 
       IVD1_1 = NRTCF
       NRTCF  = NRTCF + 5
+      Vc(1) = EMTDC_VVDC(SS, NT_2(1), 0)
+      Vc(2) = EMTDC_VVDC(SS, NT_2(2), 0)
+      Vc(3) = EMTDC_VVDC(SS, NT_2(3), 0)
       RVD1_1 = RTCF(IVD1_1) * P3PH3(SS, (IBRCH+16), (IBRCH+17), (IBRCH+1&
      &8),RTCF(IVD1_1+2),0)
       Pc = RVD1_1
@@ -313,16 +422,86 @@
          PGB(IPGB+1+IVD1_1-1) = RT_1(IVD1_1)
       ENDDO
 
+! 50:[datatap] Scalar/Array Tap 
+      RT_3 = Vc(1)
+
+! 60:[datatap] Scalar/Array Tap 
+      RT_4 = Vc(2)
+
+! 70:[datatap] Scalar/Array Tap 
+      RT_5 = Vc(3)
+
+! 80:[fft] On-Line Frequency Scanner 
+      IVD1_1=0
+      CALL FTN180(0,1,7,1,60.0,60.0,RT_3,IVD1_1,RT_12,RT_6,RT_8)
+      CALL FTN180(0,1,7,1,60.0,60.0,RT_4,IVD1_1,RT_11,RT_2,RT_10)
+      CALL FTN180(0,1,7,1,60.0,60.0,RT_5,IVD1_1,RT_13,RT_7,RT_9)
+!
+
+! 90:[datatap] Scalar/Array Tap 
+      RT_14 = RT_12(1)
+
+! 100:[datatap] Scalar/Array Tap 
+      RT_16 = RT_11(1)
+
+! 110:[datatap] Scalar/Array Tap 
+      RT_15 = RT_6(1)
+
+! 120:[datatap] Scalar/Array Tap 
+      RT_17 = RT_2(1)
+
+! 130:[datamerge] Merges data signals into an array 
+      RT_18(1) = RT_14
+      RT_18(2) = RT_15
+      RT_18(3) = RT_16
+      RT_18(4) = RT_17
+
+! 140:[pgb] Output Channel 'Fasor'
+
+      DO IVD1_1 = 1, 4
+         PGB(IPGB+3+IVD1_1-1) = RT_18(IVD1_1)
+      ENDDO
+
 !---------------------------------------
 ! Feedbacks and transfers to storage
 !---------------------------------------
 
       STOF(ISTOF + 1) = Pb
       STOF(ISTOF + 2) = Pc
+      STOF(ISTOF + 12) = RT_3
+      STOF(ISTOF + 13) = RT_4
+      STOF(ISTOF + 14) = RT_5
+      STOF(ISTOF + 29) = RT_8
+      STOF(ISTOF + 30) = RT_9
+      STOF(ISTOF + 31) = RT_10
+      STOF(ISTOF + 53) = RT_14
+      STOF(ISTOF + 54) = RT_15
+      STOF(ISTOF + 55) = RT_16
+      STOF(ISTOF + 56) = RT_17
 
 ! Array (1:2) quantities...
       DO IT_0 = 1,2
          STOF(ISTOF + 2 + IT_0) = RT_1(IT_0)
+      END DO
+
+! Array (1:3) quantities...
+      DO IT_0 = 1,3
+         STOF(ISTOF + 60 + IT_0) = Vc(IT_0)
+      END DO
+
+! Array (1:4) quantities...
+      DO IT_0 = 1,4
+         STOF(ISTOF + 56 + IT_0) = RT_18(IT_0)
+      END DO
+
+! Array (1:7) quantities...
+      DO IT_0 = 1,7
+         STOF(ISTOF + 4 + IT_0) = RT_2(IT_0)
+         STOF(ISTOF + 14 + IT_0) = RT_6(IT_0)
+         STOF(ISTOF + 21 + IT_0) = RT_7(IT_0)
+         STOF(ISTOF + 31 + IT_0) = RT_11(IT_0)
+         STOF(ISTOF + 38 + IT_0) = RT_12(IT_0)
+         STOF(ISTOF + 45 + IT_0) = RT_13(IT_0)
       END DO
 
 
@@ -458,6 +637,7 @@
 ! Subroutine Arguments
 
 ! Electrical Node Indices
+      INTEGER  NT_2(3)
 
 ! Control Signals
 
@@ -498,6 +678,11 @@
 !---------------------------------------
 
 
+! Array (1:3) quantities...
+      DO IT_0 = 1,3
+         NT_2(IT_0) = NODE(INODE + 12 + IT_0)
+      END DO
+
 !---------------------------------------
 ! Generated code from module definition
 !---------------------------------------
@@ -526,6 +711,26 @@
 ! 30:[datamerge] Merges data signals into an array 
 
 ! 40:[pgb] Output Channel 'Potencias'
+
+! 50:[datatap] Scalar/Array Tap 
+
+! 60:[datatap] Scalar/Array Tap 
+
+! 70:[datatap] Scalar/Array Tap 
+
+! 80:[fft] On-Line Frequency Scanner 
+
+! 90:[datatap] Scalar/Array Tap 
+
+! 100:[datatap] Scalar/Array Tap 
+
+! 110:[datatap] Scalar/Array Tap 
+
+! 120:[datatap] Scalar/Array Tap 
+
+! 130:[datamerge] Merges data signals into an array 
+
+! 140:[pgb] Output Channel 'Fasor'
 
       RETURN
       END

@@ -1,0 +1,69 @@
+<Meta name="SIM6a">
+  <messagelist>
+    <message status="normal" label="build" groupid="100006">
+      <User scope="SIM6b" name="Main" status="normal" link="1452091712" /><![CDATA[Generating network and source code 'C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM6\SIM6b.gf46\Main.f'.]]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6b" name="master:inv" status="warning" link="1097695573" /><![CDATA[Signal 'RT_15' type conversion may lose accuracy at connection 'IN']]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6b" name="master:inv" status="warning" link="1791644363" /><![CDATA[Signal 'RT_14' type conversion may lose accuracy at connection 'IN']]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6b" name="master:inv" status="warning" link="1620577417" /><![CDATA[Signal 'RT_13' type conversion may lose accuracy at connection 'IN']]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6b" name="master:logic_mult" status="warning" link="1382954456" /><![CDATA[Signal 'En' type conversion may lose accuracy at connection 'IN2']]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6b" name="master:logic_mult" status="warning" link="227030156" /><![CDATA[Signal 'RT_15' type conversion may lose accuracy at connection 'IN1']]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6b" name="master:logic_mult" status="warning" link="227030156" /><![CDATA[Signal 'En' type conversion may lose accuracy at connection 'IN2']]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6b" name="master:logic_mult" status="warning" link="1844639796" /><![CDATA[Signal 'En' type conversion may lose accuracy at connection 'IN2']]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6b" name="master:logic_mult" status="warning" link="845297834" /><![CDATA[Signal 'RT_14' type conversion may lose accuracy at connection 'IN1']]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6b" name="master:logic_mult" status="warning" link="845297834" /><![CDATA[Signal 'En' type conversion may lose accuracy at connection 'IN2']]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6b" name="master:logic_mult" status="warning" link="165919382" /><![CDATA[Signal 'En' type conversion may lose accuracy at connection 'IN2']]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6b" name="master:logic_mult" status="warning" link="1186512306" /><![CDATA[Signal 'RT_13' type conversion may lose accuracy at connection 'IN1']]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6b" name="master:logic_mult" status="warning" link="1186512306" /><![CDATA[Signal 'En' type conversion may lose accuracy at connection 'IN2']]></message>
+    <message status="normal" label="build" scope="SIM6b" groupid="100006"><![CDATA[Generating 'C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM6\SIM6b.gf46\SIM6b.map'.]]></message>
+    <message status="normal" label="build" scope="SIM6b" groupid="100014"><![CDATA[The total number of live nodes: 11]]></message>
+    <message status="normal" label="build" scope="SIM6b" groupid="100001"><![CDATA[Non-professional licenses are limited to a single, electrical subsystem. Subsystem splitting has been internally disabled for this simulation.]]></message>
+    <message status="normal" label="build" scope="SIM6b" groupid="400000"><![CDATA[Time for Compile: 94ms  Make: 0ms]]></message>
+    <message status="normal" label="build" scope="SIM6b" groupid="100015"><![CDATA[Will execute (1): call C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat]]></message>
+    <message status="normal" label="build" scope="SIM6b" groupid="100015"><![CDATA[Will execute (1): call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat"]]></message>
+    <message status="normal" label="build" scope="SIM6b" groupid="100015"><![CDATA[Will execute (2): make -f SIM6b.mak]]></message>
+    <message status="normal" label="build" scope="SIM6b" groupid="100015"><![CDATA[Will execute (2): "C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM6\SIM6b.gf46\SIM6b.mak.bat"]]></message>
+    <message status="normal" label="build" scope="SIM6b" groupid="100005"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" scope="SIM6b" groupid="0"><![CDATA[C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM6\SIM6b.gf46>call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat" ]]></message>
+    <message status="normal" label="build" scope="SIM6b" groupid="100004"><![CDATA[Compiling 'Main.f' into object code.]]></message>
+    <message status="normal" label="build" scope="SIM6b" groupid="100012"><![CDATA[Linking objects and libraries into binary 'SIM6b.exe']]></message>
+    <message status="normal" label="build" scope="SIM6b" groupid="400000"><![CDATA[Solve Time = 15ms]]></message>
+  </messagelist>
+  <List classid="Settings" />
+  <ViewContext>
+    <Window defn="SIM6a:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomlevel="4" scrollx="647" scrolly="0" />
+  </List>
+  <Output device="EMTDC" version="2010" date="2020/12/18" time="11:32:54.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="100000.0" end="50000" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):Idref" index="0" id="723099162:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Iqref" index="1" id="1251488693:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Ig" index="2" id="685817004:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Iq" index="5" id="621442182:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Id" index="6" id="295057016:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):refc" index="7" id="953863264:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):refb" index="8" id="357353998:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):refa" index="9" id="1680957796:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):refq" index="10" id="1904018226:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):refd" index="11" id="2139653796:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):theta" index="12" id="953635308:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>

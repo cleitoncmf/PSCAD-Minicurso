@@ -1,0 +1,49 @@
+<Meta name="SIM6a">
+  <messagelist>
+    <message status="normal" label="build" groupid="100006">
+      <User scope="SIM6a" name="Main" status="normal" link="1452091712" /><![CDATA[Generating network and source code 'C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM6\SIM6a.gf46\Main.f'.]]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6a" name="master:inv" status="warning" link="585615921" /><![CDATA[Signal 'gcT' type conversion may lose accuracy at connection 'IN']]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6a" name="master:inv" status="warning" link="368578625" /><![CDATA[Signal 'gbT' type conversion may lose accuracy at connection 'IN']]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6a" name="master:inv" status="warning" link="1620577417" /><![CDATA[Signal 'gaT' type conversion may lose accuracy at connection 'IN']]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6a" name="master:peswitch" status="warning" link="919193464" /><![CDATA[Signal 'gcT' type conversion may lose accuracy at connection 'APUL']]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6a" name="master:peswitch" status="warning" link="1065325783" /><![CDATA[Signal 'gbT' type conversion may lose accuracy at connection 'APUL']]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="SIM6a" name="master:peswitch" status="warning" link="102682175" /><![CDATA[Signal 'gaT' type conversion may lose accuracy at connection 'APUL']]></message>
+    <message status="normal" label="build" scope="SIM6a" groupid="100006"><![CDATA[Generating 'C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM6\SIM6a.gf46\SIM6a.map'.]]></message>
+    <message status="normal" label="build" scope="SIM6a" groupid="100014"><![CDATA[The total number of live nodes: 2]]></message>
+    <message status="normal" label="build" scope="SIM6a" groupid="100001"><![CDATA[Non-professional licenses are limited to a single, electrical subsystem. Subsystem splitting has been internally disabled for this simulation.]]></message>
+    <message status="normal" label="build" scope="SIM6a" groupid="400000"><![CDATA[Time for Compile: 47ms  Make: 0ms]]></message>
+    <message status="normal" label="build" scope="SIM6a" groupid="100015"><![CDATA[Will execute (1): call C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat]]></message>
+    <message status="normal" label="build" scope="SIM6a" groupid="100015"><![CDATA[Will execute (1): call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat"]]></message>
+    <message status="normal" label="build" scope="SIM6a" groupid="100015"><![CDATA[Will execute (2): make -f SIM6a.mak]]></message>
+    <message status="normal" label="build" scope="SIM6a" groupid="100015"><![CDATA[Will execute (2): "C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM6\SIM6a.gf46\SIM6a.mak.bat"]]></message>
+    <message status="normal" label="build" scope="SIM6a" groupid="100005"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" scope="SIM6a" groupid="0"><![CDATA[C:\Users\cleit\Documents\GitHub\PSCAD-Minicurso\SIMULACOES\SIM6\SIM6a.gf46>call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat" ]]></message>
+    <message status="normal" label="build" scope="SIM6a" groupid="100012"><![CDATA[Linking objects and libraries into binary 'SIM6a.exe']]></message>
+    <message status="normal" label="build" scope="SIM6a" groupid="400000"><![CDATA[Solve Time = 15ms]]></message>
+  </messagelist>
+  <List classid="Settings" />
+  <ViewContext>
+    <Window defn="SIM6a:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomlevel="6" scrollx="646" scrolly="540" />
+  </List>
+  <Output device="EMTDC" version="2010" date="2020/12/18" time="10:26:04.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="100000.0" end="20000" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):Ig" index="0" id="685817004:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):trig" index="3" id="516331377:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):gaT" index="4" id="1943556167:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):refa" index="5" id="1706213958:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>
